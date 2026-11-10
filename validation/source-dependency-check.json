@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "requests_version": "2.33.0",
+  "test": "HTTPS retrieval of the official NPTEL course page using isolated optional dependency installation",
+  "http_status": 200,
+  "scope": "Import and public HTTPS compatibility; no fresh caption or private credential retrieval"
+}
