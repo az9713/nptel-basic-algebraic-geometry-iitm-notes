@@ -1,0 +1,23 @@
+{
+  "manuscript_status": "complete study edition accepted for release",
+  "chapters": 15,
+  "recordings": 42,
+  "worked_exercises": 69,
+  "words_including_tex": 28771,
+  "independent_reviews": 30,
+  "review_evidence": "validation/review-index.json",
+  "source_evidence": "source-manifest.json",
+  "checks": {
+    "algebra-results.json": "passed",
+    "geometry-results.json": "passed",
+    "browser-results.json": "passed",
+    "package-results.json": "passed"
+  },
+  "publication_boundary": "This records pre-publication acceptance. Remote state is verified separately in GitHub workflow and Pages deployment records.",
+  "limitations": [
+    "AI-agent editorial review, not human refereeing or formal proof certification",
+    "No exhaustive audiovisual reconstruction",
+    "Invoked general theorems remain cited inputs",
+    "Dated Jacobian research reports not independently reproduced"
+  ]
+}

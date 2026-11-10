@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "staged_files": 148,
+  "issues": [],
+  "scope": "Staged bytes scanned for raw-source paths, signed endpoints, known secret formats, private local paths and supplied biography."
+}

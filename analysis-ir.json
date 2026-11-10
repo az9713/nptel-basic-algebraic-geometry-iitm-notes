@@ -1,0 +1,1006 @@
+{
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Equations, topology, and the vanishing dictionary",
+      "lectures": [
+        1,
+        2,
+        3
+      ],
+      "sections": [
+        {
+          "id": "equations",
+          "heading": "1.1 Equations and the choice of field L1 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-MASKnQriQo&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "topology",
+          "heading": "1.2 Why zero loci define a topology L2 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=ZFb5Zs3e46Q&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "ideals",
+          "heading": "1.3 Finite equations inside infinite ideals L2 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=ZFb5Zs3e46Q&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "dictionary",
+          "heading": "1.4 The vanishing ideal and radical closure L3 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=DixwONL4mrQ&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/00FV"
+          ]
+        },
+        {
+          "id": "worked",
+          "heading": "1.5 A consistency certificate and a lost multiplicity",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "1.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "c775687298505be63ae2c1f6fdd5457ddefaef1f161e0b3faef56a31aae8ee34",
+      "exercise_count": 4,
+      "word_count_including_tex": 2246
+    },
+    {
+      "number": 2,
+      "title": "Irreducibility and prime ideals",
+      "lectures": [
+        4,
+        5
+      ],
+      "sections": [
+        {
+          "id": "points",
+          "heading": "2.1 Points, maximal ideals, and intermediate objects L4 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=0vwf7Rf_ELs&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "irreducible",
+          "heading": "2.2 Irreducibility as an intersection property L4 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=0vwf7Rf_ELs&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "prime",
+          "heading": "2.3 The prime–irreducible dictionary L5 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=Z4WvQ152QP8&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "cases",
+          "heading": "2.4 The parabola, crossing, and a misleading polynomial",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "2.5 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "2381e9536ca77095b7cca468a15b2e60d75b8f40f7ab7a4d0b9f309aff93c3a9",
+      "exercise_count": 4,
+      "word_count_including_tex": 1429
+    },
+    {
+      "number": 3,
+      "title": "Noetherian spaces and irreducible components",
+      "lectures": [
+        6,
+        7
+      ],
+      "sections": [
+        {
+          "id": "line",
+          "heading": "3.1 The affine line and the topology trap L6 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=PFHajnTjmv8&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "noetherian",
+          "heading": "3.2 The descending-chain condition L6 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=PFHajnTjmv8&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "decomposition",
+          "heading": "3.3 Existence of finitely many components L7 25:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=ERHauUelUYU&t=1500s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "examples",
+          "heading": "3.4 Components are not connected components",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "3.5 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "f5f54e732299299aa01ae81ea7646512ba21e1e7d0dccb4fb1f132a55bbf707e",
+      "exercise_count": 4,
+      "word_count_including_tex": 1483
+    },
+    {
+      "number": 4,
+      "title": "Dimension, coordinate rings, and hypersurfaces",
+      "lectures": [
+        8,
+        9,
+        10
+      ],
+      "sections": [
+        {
+          "id": "chains",
+          "heading": "4.1 Dimension counts strict inclusions L8 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-LaawYwdQWw&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "transcendence",
+          "heading": "4.2 Algebraic independence measures dimension L8 15:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-LaawYwdQWw&t=900s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/07NB",
+            "https://stacks.math.columbia.edu/tag/00OW"
+          ]
+        },
+        {
+          "id": "hypersurfaces",
+          "heading": "4.3 Why codimension one means one equation L10 15:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=_t-GulwE0Ck&t=900s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "4.4 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "3d738e77a000834d24bbee59b7c003d423897f9f6f5003ca8e8afe76ba05ad9b",
+      "exercise_count": 4,
+      "word_count_including_tex": 1335
+    },
+    {
+      "number": 5,
+      "title": "Recovering affine geometry from its ring",
+      "lectures": [
+        11,
+        12
+      ],
+      "sections": [
+        {
+          "id": "intrinsic",
+          "heading": "5.1 Different presentations of the same functions L11 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=evfMfi-fe-c&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "spectrum",
+          "heading": "5.2 Building a space from prime ideals L11 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=evfMfi-fe-c&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/00E0",
+            "https://stacks.math.columbia.edu/tag/00ER"
+          ]
+        },
+        {
+          "id": "quotient",
+          "heading": "5.3 Quotients and reversal of arrows L12 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=_s9meZlVsEU&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "recover",
+          "heading": "5.4 Recovering the classical topology L12 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=_s9meZlVsEU&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "5.5 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+      "exercise_count": 3,
+      "word_count_including_tex": 1217
+    },
+    {
+      "number": 6,
+      "title": "Basic open sets and localization",
+      "lectures": [
+        13,
+        14
+      ],
+      "sections": [
+        {
+          "id": "basis",
+          "heading": "6.1 Nonvanishing loci form a basis L13 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=lVCM0lmcK18&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "fractions",
+          "heading": "6.2 Adjoining the reciprocal of a function L13 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=lVCM0lmcK18&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "graph",
+          "heading": "6.3 An open set that is an affine variety L14 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=eUA1Bh_JUsc&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "spectrum",
+          "heading": "6.4 Localization on spectra and overlaps",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "6.5 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "b83bd4638027620f16e3d20a1d16d165cb1e6a74d2843d07a4a24792844c0eba",
+      "exercise_count": 4,
+      "word_count_including_tex": 1114
+    },
+    {
+      "number": 7,
+      "title": "Quasi-compactness and regular functions",
+      "lectures": [
+        15,
+        16
+      ],
+      "sections": [
+        {
+          "id": "compact",
+          "heading": "7.1 Quasi-compact does not mean Hausdorff L15 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=ucDSP1uq2Ok&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "regular",
+          "heading": "7.2 Regularity is local representability L15 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=ucDSP1uq2Ok&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "affine",
+          "heading": "7.3 Every global regular function on an affine is polynomial L16 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=p0Yw9lK9Ufg&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "punctured",
+          "heading": "7.4 A missing point that adds no functions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "7.5 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+      "exercise_count": 4,
+      "word_count_including_tex": 1191
+    },
+    {
+      "number": 8,
+      "title": "Affine morphisms, duality, and automorphisms",
+      "lectures": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "sections": [
+        {
+          "id": "morphisms",
+          "heading": "8.1 Maps must preserve local functions L17 25:00 L18 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=jblh1O9g8Ko&t=1500s",
+            "https://www.youtube.com/watch?v=aSVXmbmxT4Q&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "coordinates",
+          "heading": "8.2 Coordinate functions test a map into an affine L18 10:00 L20 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=aSVXmbmxT4Q&t=600s",
+            "https://www.youtube.com/watch?v=u2svkFbfNOs&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "duality",
+          "heading": "8.3 All maps into an affine are algebra maps L19 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=4ozDnMxA2z4&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01I1"
+          ]
+        },
+        {
+          "id": "automorphisms",
+          "heading": "8.4 Polynomial inverses and the Jacobian condition L21 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=MO16Q_6axVk&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://arxiv.org/abs/2608.00222v2",
+            "https://arxiv.org/abs/2608.19069"
+          ]
+        },
+        {
+          "id": "nonaffine",
+          "heading": "8.5 Why the punctured plane is not affine L21 35:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=MO16Q_6axVk&t=2100s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "8.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+      "exercise_count": 5,
+      "word_count_including_tex": 2084
+    },
+    {
+      "number": 9,
+      "title": "Projective space and affine gluing",
+      "lectures": [
+        22,
+        23
+      ],
+      "sections": [
+        {
+          "id": "points",
+          "heading": "9.1 Points as lines and homogeneous coordinates L22 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=VvIgEAyqsWA&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "homogeneous",
+          "heading": "9.2 Vanishing survives rescaling L22 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=VvIgEAyqsWA&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "charts",
+          "heading": "9.3 The \\(n+1\\) affine charts L23 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=AfQRHoPr2Fs&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01ND"
+          ]
+        },
+        {
+          "id": "topologies",
+          "heading": "9.4 Quotient, equations, and gluing give one topology L23 35:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=AfQRHoPr2Fs&t=2100s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "separated",
+          "heading": "9.5 Why this gluing is separated",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01KH"
+          ]
+        },
+        {
+          "id": "exercises",
+          "heading": "9.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "e507224c8d6b1c042062e99a070540307ed84c8b14200e1bdaeb0eb30d07608e",
+      "exercise_count": 4,
+      "word_count_including_tex": 1927
+    },
+    {
+      "number": 10,
+      "title": "Homogeneous geometry and degree-zero localization",
+      "lectures": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "sections": [
+        {
+          "id": "grading",
+          "heading": "10.1 Graded rings and homogeneous ideals L24 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=cz8Tv6bTUGk&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "projective-dictionary",
+          "heading": "10.2 The irrelevant ideal and the projective dictionary L24 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=cz8Tv6bTUGk&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01M3"
+          ]
+        },
+        {
+          "id": "varieties",
+          "heading": "10.3 Projective and quasi-projective functions L25 15:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=bjmk38mrBn8&t=900s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "homogenization",
+          "heading": "10.4 Homogenization and closure L26 25:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=D_42A3RnRWI&t=1500s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "degree-zero",
+          "heading": "10.5 Degree-zero localization recovers the chart L26 45:00 L27 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=D_42A3RnRWI&t=2700s",
+            "https://www.youtube.com/watch?v=yjUh100FqpE&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01M3"
+          ]
+        },
+        {
+          "id": "exercises",
+          "heading": "10.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "42638dcfa5a20dc1e1268f8d8f13c6dcc64d09e54b00ab158656bf019745649a",
+      "exercise_count": 5,
+      "word_count_including_tex": 2327
+    },
+    {
+      "number": 11,
+      "title": "Germs and local rings",
+      "lectures": [
+        28,
+        29,
+        30
+      ],
+      "sections": [
+        {
+          "id": "affine-covers",
+          "heading": "11.1 Why every local calculation can use an affine chart L28 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "germs",
+          "heading": "11.2 A function near a point L28 30:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=1800s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/0078"
+          ]
+        },
+        {
+          "id": "local",
+          "heading": "11.3 Why this ring has one maximal ideal L28 45:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=2700s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "affine",
+          "heading": "11.4 The affine localization formula L29 35:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=7qNETTzVhNM&t=2100s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "projective",
+          "heading": "11.5 The projective local-ring formula L30 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=cVB0QsFHhqM&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01M3"
+          ]
+        },
+        {
+          "id": "calculus",
+          "heading": "11.6 First-order information without limits",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "11.7 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+      "exercise_count": 5,
+      "word_count_including_tex": 2432
+    },
+    {
+      "number": 12,
+      "title": "Rational functions and function fields",
+      "lectures": [
+        31,
+        32
+      ],
+      "sections": [
+        {
+          "id": "rational",
+          "heading": "12.1 A rational function is an equivalence class L31 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=iYNMR0JthMA&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/01RR"
+          ]
+        },
+        {
+          "id": "global-local",
+          "heading": "12.2 From global functions through a local ring to the field L31 35:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=iYNMR0JthMA&t=2100s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "affine",
+          "heading": "12.3 The fraction field of an affine coordinate domain L32 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "open",
+          "heading": "12.4 Restriction does not change the function field L31 40:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=iYNMR0JthMA&t=2400s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "projective",
+          "heading": "12.5 Homogeneous fractions of equal degree L32 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "dimension",
+          "heading": "12.6 Dimension from either a local ring or a function field L32 45:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=2700s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/07NB"
+          ]
+        },
+        {
+          "id": "maps",
+          "heading": "12.7 Pullback requires a dominant map",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/0BXM"
+          ]
+        },
+        {
+          "id": "exercises",
+          "heading": "12.8 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+      "exercise_count": 5,
+      "word_count_including_tex": 2330
+    },
+    {
+      "number": 13,
+      "title": "Projective functions and Veronese embeddings",
+      "lectures": [
+        33,
+        34
+      ],
+      "sections": [
+        {
+          "id": "constant",
+          "heading": "13.1 Global regular functions on a projective variety L33 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=zn77pSkvi9s&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://jrsijsling.eu/notes/AG-2022.pdf"
+          ]
+        },
+        {
+          "id": "line",
+          "heading": "13.2 The projective line makes the obstruction visible",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "veronese",
+          "heading": "13.3 The degree-\\(d\\) Veronese map L34 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "closed",
+          "heading": "13.4 Why the image is closed L34 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://virtualmath1.stanford.edu/~vakil/0708-216/216class43.pdf"
+          ]
+        },
+        {
+          "id": "conic",
+          "heading": "13.5 One projective line, two nonisomorphic coordinate rings L34 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "13.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "b89b364c8b3ace7241b6afa8804bc8622c10cd7a48ec7ff2297c5b5c24bd4e59",
+      "exercise_count": 5,
+      "word_count_including_tex": 2177
+    },
+    {
+      "number": 14,
+      "title": "Local isomorphisms and birational geometry",
+      "lectures": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "sections": [
+        {
+          "id": "pullbacks",
+          "heading": "14.1 Local pullbacks retain the marked point L35 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=eouz_gZF5SQ&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "isomorphism",
+          "heading": "14.2 A homeomorphism plus local algebra L35 15:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=eouz_gZF5SQ&t=900s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "intersection",
+          "heading": "14.3 A rational function regular at every point L36 00:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=MEyPcwMBqqA&t=0s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "neighborhoods",
+          "heading": "14.4 Extending a local-ring isomorphism L37 05:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=eueMaSU2oRo&t=300s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "birational",
+          "heading": "14.5 Function fields classify birational geometry L38 25:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=t5p7IF1S9mY&t=1500s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/0BXN"
+          ]
+        },
+        {
+          "id": "exercises",
+          "heading": "14.6 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "7f285dedda721beef1e69bf08e186a719b1a076e426edde4990127ebbc0a6806",
+      "exercise_count": 6,
+      "word_count_including_tex": 2444
+    },
+    {
+      "number": 15,
+      "title": "Tangent spaces, nonsingularity, and smooth open sets",
+      "lectures": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "sections": [
+        {
+          "id": "first-order",
+          "heading": "15.1 First-order functions without limits L39 40:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-03WiXf687k&t=2400s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "jacobian",
+          "heading": "15.2 Deriving the Jacobian formula L40 20:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=wzpEO3tZJAE&t=1200s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://math.stanford.edu/~vakil/725/class15.pdf"
+          ]
+        },
+        {
+          "id": "regular",
+          "heading": "15.3 Regular local rings and nonsingularity L39 45:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-03WiXf687k&t=2700s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://stacks.math.columbia.edu/tag/00KD",
+            "https://stacks.math.columbia.edu/tag/00KU"
+          ]
+        },
+        {
+          "id": "curves",
+          "heading": "15.4 The cusp and the node have different branch geometry L39 25:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=-03WiXf687k&t=1500s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "singular-locus",
+          "heading": "15.5 Singular points form a closed subset L41 25:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=si24lvd-f_M&t=1500s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "dense",
+          "heading": "15.6 A dense open hypersurface model L42 10:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=iLhwIXxf7bY&t=600s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": [
+            "https://math.stanford.edu/~conrad/210BPage/handouts/septrbasis.pdf",
+            "https://stacks.math.columbia.edu/tag/0B8X"
+          ]
+        },
+        {
+          "id": "analytic",
+          "heading": "15.7 What “manifold” means over the complex numbers L41 35:00",
+          "recording_locators": [
+            "https://www.youtube.com/watch?v=si24lvd-f_M&t=2100s"
+          ],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        },
+        {
+          "id": "exercises",
+          "heading": "15.8 Exercises and complete solutions",
+          "recording_locators": [],
+          "evidence_class": "independently authored exposition/proofs/examples; lecture topic spine",
+          "external_inputs": []
+        }
+      ],
+      "manuscript_sha256_lf": "34b3f686afd5d7d78366a6417f696814dd64c07cb1faf528feba9a8e97992e7c",
+      "exercise_count": 7,
+      "word_count_including_tex": 3035
+    }
+  ],
+  "source_manifest": "source-manifest.json",
+  "evidence_limits": "Caption-topic and span analysis varies by chapter; no full direct audio or blackboard/frame review.",
+  "reuse_policy": "No content-reuse percentage asserted; exposition is original synthesis, not a transcript."
+}

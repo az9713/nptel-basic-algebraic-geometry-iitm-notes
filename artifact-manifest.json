@@ -1,0 +1,151 @@
+{
+  "artifacts": [
+    {
+      "path": "about.html",
+      "sha256_lf": "7dfa6a0db62183908102da9c0ccae3454821b3866744ba7d9b3a8c2d99df85f2",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "chapter-01.html",
+      "sha256_lf": "6c4c3f778c9df926aeb60dbe99717c5c396aea06fc7aa628c9749c1dc2158f07",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-02.html",
+      "sha256_lf": "85fe2b112112152e169f6e600380824e3118c2ea1d7dc0b63f1035c20ad5e05b",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-03.html",
+      "sha256_lf": "81b49669759d2486a1711d663922b98198dc3d54a1ef92798888794960bf8e41",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-04.html",
+      "sha256_lf": "c1388991d84c36a1f4bff130e05bd9afcd2b8fbd0ab216dc9b854f85f5b390be",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-05.html",
+      "sha256_lf": "f626666df3ae66689a1769a80fcb71f65fd137c20e8a1c3f718784cbadbd1e01",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-06.html",
+      "sha256_lf": "aa17a83c0053796fac553abb19d4c0b829c12bb085d61cf387ae91ae9dc1e714",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-07.html",
+      "sha256_lf": "fa6203405ab6de82296f14039f46844e34aec3db270fb185e7cf9082e7eea063",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-08.html",
+      "sha256_lf": "a8a5332e027c26f9f13059c952eada0075ed2fd91a49b53c564019df5a5598b6",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-09.html",
+      "sha256_lf": "456af33d85eb1d6b1e3c8963e7602f1305372aa2872c5888bdc03c0768b6a3c4",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-10.html",
+      "sha256_lf": "246ae7fd08b455013f60f302479d3378e89233b08832c6fdc8cd0e3ee7cf3529",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-11.html",
+      "sha256_lf": "cb1f659f36d7e0efa4d029c406411fefaaf882934c8115746ddd3a683d175753",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-12.html",
+      "sha256_lf": "9d276dc5f2259af5f362db135c5faed3d48216c2d4e74e8e5687d5519cdd7fb3",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-13.html",
+      "sha256_lf": "5c4e91035f965422a8bb524bc54c7a0a47b7cb56f40dc0ddfe0bd20bd4357b3d",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-14.html",
+      "sha256_lf": "c3f8a57267b86bbbaadee8e0e1f79a8e746e11b11c062eeae1eccd7de4598f06",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "chapter-15.html",
+      "sha256_lf": "4989dd5bf5672c40d505b2d8ca7639878e71781767fb96f287e8768d29ca7a7d",
+      "purpose": "portable reader page",
+      "canonical_input": "chapters/"
+    },
+    {
+      "path": "figures.html",
+      "sha256_lf": "21c5931203b5c28bc2c55b77189444d6563b81ca770462e5a7aa9e0ddd05900a",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "index.html",
+      "sha256_lf": "11ab5bf4781de15eee67d29db01ff56cfef16e637904a3aa12ef7ed58740760d",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "laboratory.html",
+      "sha256_lf": "e118d7b0d41a78a9b392f7536ba4f0b2d67883bcea89dc7de0cb7d4a0be61d0f",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "references.html",
+      "sha256_lf": "c8be41e0e878035ff868a924b5c59f8a6d182569015152db61d1513fe5cc2007",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "source-map.html",
+      "sha256_lf": "92e939ebea03c53d30424a8ac45d85ed51eff6da9d2316c83480c9f5c22b1940",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "study-guide.html",
+      "sha256_lf": "30b4e3217114d5e5f03e82ba4341270af200a97065164ac71f727b9c6af52548",
+      "purpose": "portable reader page",
+      "canonical_input": "frontmatter/"
+    },
+    {
+      "path": "algebra_lab.py",
+      "sha256_lf": "a49e85d7e78af8bd474a308aad81963f42cbede465f1d4c283205415f1ac9131",
+      "purpose": "exact finite algebra checks"
+    },
+    {
+      "path": "source-manifest.json",
+      "sha256_lf": "dd2700abdda8445ba012ff2b87a8247ade657401f4140408845f0ad76d5e39a8",
+      "purpose": "compact recording evidence"
+    },
+    {
+      "path": "analysis-ir.json",
+      "sha256_lf": "d8a8a94fad965c205643dd6c18528bf3ebbcee0b6e397bca03f6d3dcac96c600",
+      "purpose": "chapter/source/claim-role structure"
+    }
+  ]
+}

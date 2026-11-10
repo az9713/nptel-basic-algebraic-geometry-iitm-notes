@@ -1,0 +1,95 @@
+<p class="lede">The affine line, the punctured line, and the projective line have different rings of global regular functions, yet the same field \(k(t)\) of rational functions. A function field records algebraic behavior on a nonempty open subset and deliberately forgets which exceptional points were added or removed. That is the invariant needed for birational geometry.</p>
+<p class="source-note">Lecture spine: official English captions of L31–32, read in order, on the function field, global/local inclusions, restriction to opens, affine and projective formulas, and dimension. The examples and proofs are independent exposition. The discussion of dominant maps is a teaching extension. No complete visual or audio review is claimed.</p>
+
+<section id="rational"><h2>12.1 A rational function is an equivalence class <a class="timestamp" href="https://www.youtube.com/watch?v=iYNMR0JthMA&amp;t=600s">L31 10:00</a></h2>
+<p>A regular function comes with a domain, but its algebraic identity should survive restriction to a smaller nonempty open. For an irreducible variety \(X\), consider pairs \((U,f)\), where \(U\subseteq X\) is nonempty and open and \(f\in\mathcal O_X(U)\). Declare two pairs equivalent if their functions agree on some nonempty open subset of their common domain. Their common domain is nonempty because \(X\) is irreducible.</p>
+<div class="def"><strong>Definition 12.1.</strong> A <dfn>rational function</dfn> on \(X\) is an equivalence class of these pairs. Their set is denoted \(k(X)\), the <dfn>function field</dfn> of \(X\).</div>
+<p>The equivalence relation differs from the germ relation of Chapter 11. A germ is tied to one chosen point, which must remain in every neighborhood used. A rational function has no distinguished point, and it may fail to be regular at some points. Restricting to any nonempty open leaves its rational identity unchanged.</p>
+<p>Addition and multiplication are performed after intersecting representative domains. To invert a nonzero rational function represented by \(f\), restrict further to the nonvanishing locus of \(f\). This locus is nonempty, since a function identically zero on a nonempty open represents the zero class. Its reciprocal is regular there. These operations are independent of representatives by further intersection, and they satisfy the field axioms because ordinary function operations do. The scheme-theoretic version is developed in <a href="https://stacks.math.columbia.edu/tag/01RR">Stacks, Section 29.50</a>.</p>
+<p>For a reducible set the same argument fails: two nonempty opens may be disjoint, and a nonzero function can vanish identically on one component. On the crossing \(xy=0\), the nonzero polynomial functions \(x\) and \(y\) multiply to zero. No field can contain the whole coordinate ring injectively. The irreducibility hypothesis is doing mathematical work.</p>
+</section>
+
+<section id="global-local"><h2>12.2 From global functions through a local ring to the field <a class="timestamp" href="https://www.youtube.com/watch?v=iYNMR0JthMA&amp;t=2100s">L31 35:00</a></h2>
+<p>At each point \(p\in X\), the natural maps fit into
+\[
+\mathcal O_X(X)\ \hookrightarrow\
+\mathcal O_{X,p}\ \hookrightarrow\ k(X).
+\]
+The first sends a global function to its germ at \(p\); the second forgets that the representative's open domain contains \(p\) and keeps its rational-function class. Both are injective. If a global function has zero germ, it vanishes on a nonempty open and therefore everywhere. If a germ represents zero rational function, its representative vanishes on a nonempty open subset of its domain, and hence on the whole irreducible domain. These maps preserve sums, products and scalars by their definitions.</p>
+<p>The inclusions become larger rings as the regularity requirement weakens: regular everywhere, regular near \(p\), then regular somewhere on a nonempty open. They need not be strict, as a one-point variety shows. The function field and local ring are intrinsic to their respective geometric data; neither requires a particular embedding of \(X\) into an ambient space.</p>
+</section>
+
+<section id="affine"><h2>12.3 The fraction field of an affine coordinate domain <a class="timestamp" href="https://www.youtube.com/watch?v=yLuTYv8S-UU&amp;t=0s">L32 00:00</a></h2>
+<div class="thm"><strong>Theorem 12.2.</strong> If \(X\) is affine and irreducible, with \(A=k[X]\), then
+\[
+k(X)\cong\operatorname{Frac}(A).
+\]</div>
+<div class="proof"><p>A fraction \(a/b\), with \(b\ne0\) in \(A\), defines a regular function on the nonempty open \(D_X(b)\), hence a rational function. Nonemptiness follows because a nonzero element of the coordinate ring cannot vanish at every point. If two fractions define the same rational function, their cross difference vanishes on a nonempty open. Such an open is dense, so the cross difference is zero in \(A\), giving equality in the fraction field.</p>
+<p>Conversely, choose a representative \((U,f)\) of any rational function, and choose a point of \(U\). Regularity supplies a smaller nonempty neighborhood on which \(f=a/b\) for elements of \(A\), with the denominator nonvanishing. Thus every rational function comes from a fraction. The two constructions preserve field operations and are inverse. <span class="qed">∎</span></p></div>
+<p>For the cusp \(C=V(y^2-x^3)\), the coordinate ring is \(k[t^2,t^3]\), using \(x=t^2\) and \(y=t^3\). In its fraction field the quotient \(y/x=t\) exists, so
+\[
+k(C)=\operatorname{Frac}k[t^2,t^3]=k(t).
+\]
+The expression \(y/x\) is regular on the cusp away from the origin. It is not regular at the origin. To prove the latter, suppose \(t=a(t^2,t^3)/b(t^2,t^3)\), with \(b(0)\ne0\). Cross multiplication gives \(t\,b(t^2,t^3)=a(t^2,t^3)\). The left side has a nonzero coefficient of \(t^1\), while the right side has no \(t^1\) term. This contradiction shows that rational identity and regularity at a specified point are different questions.</p>
+<p>Compare with the punctured line. Its coordinate ring is \(k[t,t^{-1}]\), whose fraction field is again \(k(t)\). The denominator \(t\) is already invertible there, while on the complete affine line it is merely a nonzero element. The fraction field remembers neither whether zero was removed nor whether a singular origin replaced it.</p>
+</section>
+
+<section id="open"><h2>12.4 Restriction does not change the function field <a class="timestamp" href="https://www.youtube.com/watch?v=iYNMR0JthMA&amp;t=2400s">L31 40:00</a></h2>
+<div class="prop"><strong>Proposition 12.3.</strong> If \(U\subseteq X\) is nonempty and open in an irreducible variety, restriction induces a canonical isomorphism \(k(X)\cong k(U)\).</div>
+<div class="proof"><p>A representative on a nonempty open \(V\subseteq X\) restricts to \(V\cap U\), which is nonempty and open. This defines a map \(k(X)\to k(U)\). Conversely, an open subset of \(U\) is open in \(X\), since \(U\) is itself open; a representative on \(U\) therefore already defines a rational function on \(X\). Both compositions restrict representatives, leaving their equivalence classes unchanged. <span class="qed">∎</span></p></div>
+<p>In particular, every nonempty affine chart of a projective or quasi-projective variety computes the same function field. If charts \(U_i,U_j\) overlap, both fields identify with the field of their nonempty overlap. This explains why changing charts does not change the rational function under discussion.</p>
+<p>For a rational function \(q\in k(X)\), its <dfn>regularity locus</dfn> is the set of points where it belongs to \(\mathcal O_{X,p}\). This is open: membership at a point is witnessed by a representative regular on a neighborhood, and the same representative witnesses membership at every point of that neighborhood. The local representatives agree on overlaps, so they glue to a regular function on the entire regularity locus. This is the largest open domain on which \(q\) can be evaluated as a regular scalar-valued function.</p>
+<p>The regularity locus can be larger than the nonvanishing locus of one initially chosen denominator. For \((t^2-1)/(t-1)\), the expression's displayed denominator excludes 1, but the rational function equals \(t+1\) and is regular on the whole affine line. One must test all possible local presentations, not pronounce a pole from a single formula.</p>
+</section>
+
+<section id="projective"><h2>12.5 Homogeneous fractions of equal degree <a class="timestamp" href="https://www.youtube.com/watch?v=yLuTYv8S-UU&amp;t=1200s">L32 20:00</a></h2>
+<p>Let \(X\subseteq\mathbb P^n\) have homogeneous coordinate domain \(S\). A fraction of homogeneous forms \(F/G\), with \(G\ne0\) in \(S\) and \(\deg F=\deg G\), is invariant under rescaling a representative of a projective point. It therefore defines a regular function on the nonempty open \(X\cap D_+(G)\), and hence an element of \(k(X)\).</p>
+<p>The equal-degree requirement is essential. The coordinate \(x_0\) alone scales when the representative \((a_0,\ldots,a_n)\) is replaced by \((\lambda a_0,\ldots,\lambda a_n)\). It is a homogeneous coordinate, not a scalar-valued function on projective space. The ratio \(x_j/x_i\) has degree zero and is a function on the chart \(x_i\ne0\).</p>
+<div class="prop"><strong>Proposition 12.4.</strong> The function field of an irreducible projective variety is the field of degree-zero homogeneous fractions:
+\[
+k(X)=\{F/G:\ F,G\in S\text{ homogeneous of the same degree},\ G\ne0\}.
+\]</div>
+<div class="proof"><p>Choose a nonempty standard chart \(U_i\). Its affine coordinate ring is \(B_i=S_{(x_i)}\), so the preceding results identify \(k(X)=\operatorname{Frac}(B_i)\). Write two elements of \(B_i\) as \(F/x_i^r\) and \(G/x_i^s\), with \(F,G\) homogeneous of degrees \(r,s\). Their quotient equals \(Fx_i^s/(Gx_i^r)\), whose numerator and denominator have the same degree. This proves that all rational functions have the stated form. Conversely, an equal-degree fraction defines a rational function on its denominator's nonvanishing locus. Equality in the fraction field is the same as agreement on a dense nonempty open, by the cross-multiplication argument. <span class="qed">∎</span></p></div>
+<p>For \(\mathbb P^1\), choose \(t=x_1/x_0\). Every equal-degree fraction can be dehomogenized to a quotient of polynomials in \(t\), and every quotient in \(t\) can be homogenized by multiplying numerator or denominator by a suitable power of \(x_0\). Thus \(k(\mathbb P^1)=k(t)\). On the other chart \(s=x_0/x_1\), one has \(s=1/t\), so the field is equally \(k(s)\).</p>
+<p>Do not replace this degree-zero field by the full fraction field of \(S\). For \(X=\mathbb P^n\), the latter is \(k(x_0,\ldots,x_n)\), of transcendence degree \(n+1\), while
+\[
+k(\mathbb P^n)=k(x_1/x_0,\ldots,x_n/x_0)
+\]
+has transcendence degree \(n\). The extra variable in the full homogeneous fraction field retains the irrelevant scaling direction of the affine cone.</p>
+</section>
+
+<section id="dimension"><h2>12.6 Dimension from either a local ring or a function field <a class="timestamp" href="https://www.youtube.com/watch?v=yLuTYv8S-UU&amp;t=2700s">L32 45:00</a></h2>
+<p>Let \(X\) be an irreducible variety and \(p\) a classical point. Choose a nonempty affine open \(U\) containing \(p\), with coordinate domain \(A\) and point ideal \(\mathfrak m_p\). The finite-type dimension theorem invoked in Chapter 4 gives
+\[
+\dim X=\dim A=\operatorname{trdeg}_k\operatorname{Frac}A
+=\operatorname{trdeg}_k k(X).
+\]
+Here nonempty opens of an irreducible variety have the same dimension. The field version follows from their common fraction field, while the geometric dimension theorem identifies that number with the chain definition.</p>
+<p>The local-ring equality uses the same finite-type hypotheses. Prime chains in \(A_{\mathfrak m_p}\) correspond to primes of \(A\) contained in \(\mathfrak m_p\), so \(\dim A_{\mathfrak m_p}=\operatorname{ht}\mathfrak m_p\). The dimension formula for a finite-type domain over \(k\) is
+\[
+\operatorname{ht}\mathfrak m_p+
+\operatorname{trdeg}_k\operatorname{Frac}(A/\mathfrak m_p)
+=\operatorname{trdeg}_k\operatorname{Frac}A.
+\]
+The residue field is \(k\) by the Nullstellensatz, so its transcendence degree is zero. Therefore \(\dim\mathcal O_{X,p}=\dim X\). The algebraic input is stated and proved in <a href="https://stacks.math.columbia.edu/tag/07NB">Stacks, Section 10.116</a>.</p>
+<p>The restriction to classical closed points matters. On the prime spectrum of a domain, the generic point has local ring equal to the fraction field, whose Krull dimension is zero. Thus the local dimension is not equal to the whole space's dimension at every scheme-theoretic point. The present equality is for the closed \(k\)-rational points of a finite-type irreducible variety.</p>
+</section>
+
+<section id="maps"><h2>12.7 Pullback requires a dominant map</h2>
+<p>A morphism \(f:X\to Y\) is <dfn>dominant</dfn> if its image is dense in \(Y\). Dominance allows a rational function on \(Y\) to be pulled back to \(X\): the inverse image of a nonempty open domain is nonempty, since otherwise the image would lie in the domain's proper closed complement. On that inverse image, compose the regular representative with \(f\).</p>
+<p>This gives an injective \(k\)-field homomorphism \(f^*:k(Y)\hookrightarrow k(X)\). If a rational function pulls back to zero, its nonvanishing open locus has empty inverse image; dominance rules this out unless the original rational function was zero. Composition reverses arrows, just as it did for coordinate rings. The broader correspondence with dominant rational maps is treated in <a href="https://stacks.math.columbia.edu/tag/0BXM">Stacks, Theorem 33.4.1</a>, and developed geometrically in Chapter 14.</p>
+<p>For the map \(t\mapsto t^2\) on the line, pullback is \(k(u)\to k(t)\), \(u\mapsto t^2\). It is injective and not surjective. When the characteristic is not two, the extension has degree two: \(t\) satisfies \(T^2-u=0\), and \(u\) is not a square in \(k(u)\), because a square rational function has even order of vanishing at \(u=0\). In characteristic two the same field degree is two, but the polynomial is inseparable, so the geometric fiber behavior differs.</p>
+<p>For a constant map to \(0\in\mathbb A^1\), the rational function \(1/u\) cannot be pulled back: its regular domain avoids the entire image. Substitution would demand division by zero everywhere. A regular function defined at the image can still be pulled back, but that is not a homomorphism on the whole function field.</p>
+</section>
+
+<section id="exercises"><h2>12.8 Exercises and complete solutions</h2>
+<ol><li>Compute the function field of the projective conic \(XZ=Y^2\subseteq\mathbb P^2\).</li><li>Prove that the rational function \(t\in k(\mathbb P^1)\) is regular everywhere except at infinity.</li><li>Find the regularity locus of \(x/y\in k(\mathbb A^2)\).</li><li>Explain why the affine line and the punctured line have the same function field but are not isomorphic.</li><li>For \(f:\mathbb A^1\to\mathbb A^1\), \(t\mapsto t^m\), show that its pullback has field degree \(m\) for every integer \(m\ge1\), including when the characteristic divides \(m\).</li></ol>
+<details><summary>Worked solutions</summary>
+<p><strong>1.</strong> On \(X\ne0\), let \(t=Y/X\) and \(z=Z/X\). The equation becomes \(z=t^2\), so the chart ring is \(k[t]\) and its fraction field is \(k(t)\). Since the chart is nonempty and open in the irreducible conic, this computes the conic's function field. Homogeneously, its generator is \(Y/X\).</p>
+<p><strong>2.</strong> On the chart \(x_0\ne0\), the coordinate \(t=x_1/x_0\) is regular. At infinity, use \(s=x_0/x_1\), where \(t=1/s\). If \(1/s=a(s)/b(s)\) with \(b(0)\ne0\), cross multiplication gives \(b=sa\), a contradiction at zero. There are no other excluded points.</p>
+<p><strong>3.</strong> It is regular on \(D(y)\). Suppose it were regular at a point with \(y=0\); then \(x/y=a/b\) near that point with \(b\) nonzero there. Equality in \(k(x,y)\) gives \(xb=ya\). Since \(y\) is prime and does not divide \(x\), it divides \(b\), so \(b\) vanishes at every point of the line \(y=0\), a contradiction. Thus even the origin is excluded: a simultaneous zero of numerator and denominator is not automatically removable.</p>
+<p><strong>4.</strong> Nonempty-open invariance gives \(k(\mathbb A^1)=k(\mathbb A^1\setminus\{0\})=k(t)\). Their global regular rings are \(k[t]\) and \(k[t,t^{-1}]\). In the first ring every unit is a nonzero scalar; the second has the nonconstant unit \(t\). A \(k\)-algebra isomorphism would have to preserve units and scalars, and cannot send that \(t\) injectively to a scalar. Affine duality therefore forbids an isomorphism of the varieties.</p>
+<p><strong>5.</strong> The elements \(1,t,\ldots,t^{m-1}\) span \(k(t)\) over \(k(t^m)\): the equation \(t^m=u\) reduces higher powers, and the field generated by \(t\) over \(k(u)\) has degree at most \(m\). To prove independence, clear denominators from a relation \(\sum_{i=0}^{m-1}r_i(t^m)t^i=0\). It becomes a polynomial relation in which the terms for different \(i\) have exponents in different residue classes modulo \(m\). No cancellation between those classes is possible, so every coefficient polynomial is zero. Hence all \(r_i=0\), and the degree is \(m\). Separability depends on the characteristic, but the vector-space degree calculation does not.</p>
+</details>
+<p class="source-note">Boundary: a function field is a birational invariant, not a complete invariant of a variety with all its points. Local rings specify where its elements are regular. Arbitrary morphisms do not pull back arbitrary rational functions; dominance supplies the needed nonempty domains.</p>
+</section>

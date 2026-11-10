@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "command": "python algebra_lab.py --output validation/algebra-results.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/geometry.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/build.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/test_validation.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python tools/validate.py --output validation/package-results.json",
+      "exit_code": 0
+    }
+  ],
+  "private_sources_present": false,
+  "scope": "Clean staged-tree reconstruction; authored reader rebuild and accepted review hashes without private captions."
+}

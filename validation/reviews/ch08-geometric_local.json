@@ -1,0 +1,13 @@
+{
+  "chapter": 8,
+  "author": "affine_projective",
+  "reviewer": "geometric_local",
+  "original_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+  "final_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch08-geometric_local.md",
+  "limitations": [
+    "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+  ]
+}

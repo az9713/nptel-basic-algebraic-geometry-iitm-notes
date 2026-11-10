@@ -1,0 +1,18 @@
+{
+  "chapter": 4,
+  "author": "root",
+  "reviewer": "affine_projective",
+  "original_sha256": "c8493972efa752f3eb1955b1c1c74c52ac2141fcc461d4a32703474cf5ce5d37",
+  "final_sha256": "3d738e77a000834d24bbee59b7c003d423897f9f6f5003ca8e8afe76ba05ad9b",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch04-affine_projective.md",
+  "limitations": [
+    "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+    "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1\u201316 caption cues.",
+    "No audio, video, or board-frame inspection by this reviewer.",
+    "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+    "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+  ],
+  "hash_followup": "After the initial acceptance, the author added an explicit cusp substitution-kernel proof. The reviewer inspected that addition: monic division by y\u00b2\u2212x\u00b3 leaves A(x)+yB(x); substitution produces even and odd powers of t separately, proving the exact kernel in every characteristic. The image is a domain, so the ideal is prime and is the full vanishing ideal over k. The addition is accepted. The final file was normalized to LF mechanically."
+}

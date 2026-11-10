@@ -1,0 +1,19 @@
+<p class="eyebrow">Reproducible algebra</p><h1>Algebra laboratory</h1>
+<p class="lede">A symbolic calculation can verify a proposed example exactly. It cannot replace the hypotheses or proof of a general theorem. This laboratory checks the examples used across the course with rational polynomial arithmetic and one explicitly finite-field computation.</p>
+<section id="checks"><h2>What the program checks</h2>
+<p>The standalone <a href="algebra_lab.py">algebra_lab.py</a> implements the same objects developed in the chapters. Its inputs are the fixed, displayed polynomial constructions below. It prints a JSON report and has no network effects. It writes a report only when an output path is explicitly supplied. A failed identity raises an assertion error; it never treats a failed check as a theorem.</p>
+<ol><li><strong>Consistency and nilpotents.</strong> The identity \(yx-(xy-1)=1\) certifies an empty common zero set. Reduction modulo \((x^2,y)\) leaves \(x\) nonzero while sending \(x^2\) to zero. This tests ideal membership, not just pointwise evaluation.</li>
+<li><strong>Irreducible components.</strong> The factorization \(xy(x-1)\) exposes three lines. The proof that these are the components uses primality and irredundancy from Chapter 3.</li>
+<li><strong>Rational inversion.</strong> On the cusp \(x=t^2,y=t^3\), the relation \(y^2-x^3=0\) is exact, and \(y/x=t\) when \(t\ne0\). Cancellation does not establish regularity at \(t=0\).</li>
+<li><strong>Polynomial automorphisms.</strong> The maps \(F(x,y)=(x,y+x^2)\) and \(G(u,v)=(u,v-u^2)\) compose to the identity in both directions. The Jacobian determinant is 1. Having an explicit inverse proves invertibility for this example; the determinant alone is not that proof.</li>
+<li><strong>Veronese geometry.</strong> The coordinates \((s^2,st,t^2)\) satisfy \(XZ-Y^2=0\). Projective injectivity and chartwise inverse formulas require the separate geometric argument in Chapter 13.</li>
+<li><strong>Tangent dimensions.</strong> At the origins of the cusp \(y^2=x^3\) and node \(y^2=x^2(x+1)\), the Jacobian rank is zero, giving two-dimensional tangent spaces. At \((1,1)\) on the cusp it is one, giving a one-dimensional tangent space. These characteristic-zero calculations illustrate the criterion, not a universal statement about base fields.</li>
+<li><strong>Characteristic matters.</strong> Over the field with five elements, \(t-t^5\) has derivative 1 but sends all five field elements to zero. This supplies an elementary positive-characteristic warning independent of the characteristic-zero Jacobian problem.</li></ol>
+</section>
+<section id="run"><h2>Run and inspect</h2>
+<pre><code>python -m pip install -r requirements.txt
+python algebra_lab.py
+python algebra_lab.py --output validation/algebra-results.json</code></pre>
+<p>The saved <a href="validation/algebra-results.json">recorded output</a> contains the actual checks from this edition. SymPy performs exact symbolic operations; there are no random seeds or floating-point tolerances in these checks. The computation uses small examples whose underlying reasoning is visible in the chapters.</p>
+<p>To extend the lab, replace a named example and add an assertion expressing the mathematical property under study. Sampling more points cannot prove a polynomial identity over an infinite field. For identity verification, expand or reduce the polynomial symbolically. For ideal membership, reduce with respect to a Gröbner basis over a specified field.</p>
+</section>

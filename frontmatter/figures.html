@@ -1,0 +1,17 @@
+<p class="eyebrow">Real pictures and algebraic tangent spaces</p><h1>Curves, parametrizations, and singular points</h1>
+<p class="lede">A curve can have a well-defined limiting tangent line at a point where its Zariski tangent space is the whole plane. The cusp makes that distinction visible. The node shows why a rational parametrization can also identify two different parameter values.</p>
+<section id="interactive"><h2>Move a point along the curve</h2>
+<p><label for="curve-mode">Curve: </label><select id="curve-mode"><option value="cusp">Cusp: y² = x³</option><option value="node">Node: y² = x²(x+1)</option></select></p>
+<p><label for="curve-parameter">Parameter t (−1.5 to 1.5): </label><input id="curve-parameter" type="range" min="-1.5" max="1.5" step="0.01" value="0"></p>
+<figure><svg id="curve-chart" viewBox="0 0 680 420" role="img" aria-label="Interactive real algebraic curve"></svg><figcaption>The curve and moving point are computed from polynomial parametrizations. The gold segment follows the derivative of that parametrization. This is a real two-dimensional illustration; it is not a depiction of all complex points or of the Zariski topology.</figcaption></figure>
+<p id="curve-output" role="status" aria-live="polite"></p>
+<noscript><p>The interactive figure needs JavaScript. The fixed figure and exact values below remain available.</p></noscript>
+<p>For the cusp use \(x=t^2,y=t^3\), whose velocity is \((2t,3t^2)\). At \(t=0\) the velocity vanishes, although the limiting tangent line is \(y=0\). The defining equation \(f=y^2-x^3\) has gradient \((-3x^2,2y)\); at the origin its linear part vanishes, so the Zariski tangent condition imposes no restriction on a vector in \(k^2\). The tangent space is two-dimensional while the curve is one-dimensional.</p>
+<p>For the node use \(x=t^2-1,y=t(t^2-1)\). Both \(t=1\) and \(t=-1\) map to the origin. Their velocity vectors are \((2,2)\) and \((-2,2)\), producing two different tangent directions. The Zariski tangent space at the origin is again the whole plane. The quadratic leading term \(y^2-x^2\) retains the two lines \(y=x\) and \(y=-x\); that extra object is called the tangent cone.</p>
+<p>At \(t=0\) on the node, the point is \((-1,0)\) and velocity is \((0,-1)\). A vertical tangent is nonsingular: failure to write \(y\) as a function of \(x\) does not imply failure to write \(x\) as a function of \(y\). Singularity is detected by rank, not by a preferred graph orientation.</p>
+</section>
+<section id="static"><h2>Fixed comparison and exact checks</h2>
+<figure><img src="assets/curves.svg" alt="Computed real cusp and nodal cubic in separate coordinate plots"><figcaption>Both curves have one-dimensional geometry and a two-dimensional Zariski tangent space at the origin. The cusp's parametrization has zero velocity there; the node has two distinct parameter preimages.</figcaption></figure>
+<p>The <a href="tools/geometry.py">figure generator</a> checks sampled points against their defining equations and computes the displayed geometry. The <a href="algebra_lab.py">symbolic laboratory</a> separately checks the Jacobian ranks exactly. A plotted numerical residual establishes consistency of the drawing, while the chapter's algebra establishes the general tangent-space statement.</p>
+<p>Continue with <a href="chapter-12.html">function fields</a>, <a href="chapter-14.html">birational geometry</a>, and <a href="chapter-15.html">nonsingularity</a>.</p>
+</section>

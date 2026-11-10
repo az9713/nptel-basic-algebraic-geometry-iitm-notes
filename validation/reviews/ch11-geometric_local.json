@@ -1,0 +1,13 @@
+{
+  "chapter": 11,
+  "author": "local_functions",
+  "reviewer": "geometric_local",
+  "original_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+  "final_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch11-geometric_local.md",
+  "limitations": [
+    "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review. L28 captions begin at126.13s; 00:00 is an orientation locator."
+  ]
+}

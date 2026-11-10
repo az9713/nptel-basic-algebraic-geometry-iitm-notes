@@ -1,0 +1,1588 @@
+{
+  "course_title": "Mathematics - Basic Algebraic Geometry : Varieties, Morphisms, Local Rings, Function Fields and Nonsingularity",
+  "course_id": "111106097",
+  "lecturer": "T. E. Venkata Balaji",
+  "institution": "IIT Madras",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLbMVogVj5nJSNj24jdPGivlJtxbxua2by",
+  "official_course_url": "https://nptel.ac.in/courses/111106097",
+  "recordings": [
+    {
+      "lecture": 1,
+      "video_id": "-MASKnQriQo",
+      "playlist_title": "Mod-01 Lec-01  What is Algebraic Geometry?",
+      "url": "https://www.youtube.com/watch?v=-MASKnQriQo",
+      "duration_seconds": 2919,
+      "upload_date": "20160711",
+      "chapter": 1,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "2a3bf72d53816241b97e69baf395be579d32cecbe54900f0a78750acc6dfbae4",
+      "caption_cues": 375,
+      "caption_first_seconds": 0.14,
+      "caption_last_seconds": 2913.45,
+      "evidence_file_observed_utc": "2026-11-10T12:04:06.864337+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 1,
+          "section": "equations",
+          "url": "https://www.youtube.com/watch?v=-MASKnQriQo&t=0s",
+          "label": "L1 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 2,
+      "video_id": "ZFb5Zs3e46Q",
+      "playlist_title": "Mod-01 Lec-02 The Zariski Topology and Affine Space",
+      "url": "https://www.youtube.com/watch?v=ZFb5Zs3e46Q",
+      "duration_seconds": 3102,
+      "upload_date": "20160711",
+      "chapter": 1,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "6e338ee2e47fc7d8cbaab4c0755e6784b947ed1a48e978b501eda391825eb3fb",
+      "caption_cues": 382,
+      "caption_first_seconds": 0.16,
+      "caption_last_seconds": 3096.13,
+      "evidence_file_observed_utc": "2026-11-10T12:04:32.026666+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 1,
+          "section": "topology",
+          "url": "https://www.youtube.com/watch?v=ZFb5Zs3e46Q&t=300s",
+          "label": "L2 05:00"
+        },
+        {
+          "chapter": 1,
+          "section": "ideals",
+          "url": "https://www.youtube.com/watch?v=ZFb5Zs3e46Q&t=1800s",
+          "label": "L2 30:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 3,
+      "video_id": "DixwONL4mrQ",
+      "playlist_title": "Mod-01 Lec-03 Going back and forth between subsets and ideals",
+      "url": "https://www.youtube.com/watch?v=DixwONL4mrQ",
+      "duration_seconds": 2957,
+      "upload_date": "20160711",
+      "chapter": 1,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "82a573c830a39fa1c628b63ba28686a5614b3777a73552b2c5423f62bf77408d",
+      "caption_cues": 395,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2957.02,
+      "evidence_file_observed_utc": "2026-11-10T12:04:31.935226+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 1,
+          "section": "dictionary",
+          "url": "https://www.youtube.com/watch?v=DixwONL4mrQ&t=1200s",
+          "label": "L3 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 4,
+      "video_id": "0vwf7Rf_ELs",
+      "playlist_title": "Mod-02 Lec-04 Irreducibility in the Zariski Topology",
+      "url": "https://www.youtube.com/watch?v=0vwf7Rf_ELs",
+      "duration_seconds": 3204,
+      "upload_date": "20160711",
+      "chapter": 2,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "cc4bbf83ea719ad9b4b48ebc47a23806e2cc4a239410e1ed9e161e48df913773",
+      "caption_cues": 387,
+      "caption_first_seconds": 0.14,
+      "caption_last_seconds": 3198.41,
+      "evidence_file_observed_utc": "2026-11-10T12:04:34.626101+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 2,
+          "section": "points",
+          "url": "https://www.youtube.com/watch?v=0vwf7Rf_ELs&t=300s",
+          "label": "L4 05:00"
+        },
+        {
+          "chapter": 2,
+          "section": "irreducible",
+          "url": "https://www.youtube.com/watch?v=0vwf7Rf_ELs&t=1200s",
+          "label": "L4 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 5,
+      "video_id": "Z4WvQ152QP8",
+      "playlist_title": "Mod-02 Lec-05 Irreducible Closed Subsets Correspond to Ideals Whose Radicals are Prime",
+      "url": "https://www.youtube.com/watch?v=Z4WvQ152QP8",
+      "duration_seconds": 3268,
+      "upload_date": "20160711",
+      "chapter": 2,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "87dab8fa8106fde9a555aeea6991d1473d176f0ff71bd58b662cd217bf546c91",
+      "caption_cues": 386,
+      "caption_first_seconds": 28.369,
+      "caption_last_seconds": 3264.58,
+      "evidence_file_observed_utc": "2026-11-10T12:04:31.935226+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 2,
+          "section": "prime",
+          "url": "https://www.youtube.com/watch?v=Z4WvQ152QP8&t=1200s",
+          "label": "L5 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 6,
+      "video_id": "PFHajnTjmv8",
+      "playlist_title": "Mod-03 Lec-06 Understanding the Zariski Topology on the Affine Line",
+      "url": "https://www.youtube.com/watch?v=PFHajnTjmv8",
+      "duration_seconds": 3455,
+      "upload_date": "20160711",
+      "chapter": 3,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "6de1bca5c956a29fe03bb954972b935daa1990fab157b4aaa2c6e2136e491437",
+      "caption_cues": 414,
+      "caption_first_seconds": 69.11,
+      "caption_last_seconds": 3451.92,
+      "evidence_file_observed_utc": "2026-11-10T12:04:32.642070+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 3,
+          "section": "line",
+          "url": "https://www.youtube.com/watch?v=PFHajnTjmv8&t=0s",
+          "label": "L6 00:00"
+        },
+        {
+          "chapter": 3,
+          "section": "noetherian",
+          "url": "https://www.youtube.com/watch?v=PFHajnTjmv8&t=1800s",
+          "label": "L6 30:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 7,
+      "video_id": "ERHauUelUYU",
+      "playlist_title": "Mod-03 Lec-07 The Noetherian Decomposition of Affine Algebraic Subsets Into Affine Varieties",
+      "url": "https://www.youtube.com/watch?v=ERHauUelUYU",
+      "duration_seconds": 3890,
+      "upload_date": "20160711",
+      "chapter": 3,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "11f5e29ae346af00f8a3cd869951e8bdf2dae7d22a3076e1af333e7bc1b60c14",
+      "caption_cues": 486,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3885.68,
+      "evidence_file_observed_utc": "2026-11-10T12:04:32.665233+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 3,
+          "section": "decomposition",
+          "url": "https://www.youtube.com/watch?v=ERHauUelUYU&t=1500s",
+          "label": "L7 25:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 8,
+      "video_id": "-LaawYwdQWw",
+      "playlist_title": "Mod-04 Lec-08 Topological Dimension, Krull Dimension and Heights of Prime Ideals",
+      "url": "https://www.youtube.com/watch?v=-LaawYwdQWw",
+      "duration_seconds": 3351,
+      "upload_date": "20160727",
+      "chapter": 4,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "173e539bcb435a5b38ae98fa96da1ff6d62235de2f6482aa79ec5686786068a9",
+      "caption_cues": 403,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3347.41,
+      "evidence_file_observed_utc": "2026-11-10T12:04:32.710923+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 4,
+          "section": "chains",
+          "url": "https://www.youtube.com/watch?v=-LaawYwdQWw&t=300s",
+          "label": "L8 05:00"
+        },
+        {
+          "chapter": 4,
+          "section": "transcendence",
+          "url": "https://www.youtube.com/watch?v=-LaawYwdQWw&t=900s",
+          "label": "L8 15:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 9,
+      "video_id": "b585mUCCq0k",
+      "playlist_title": "Mod-04 Lec-09 The Ring of Polynomial Functions on an Affine Variety",
+      "url": "https://www.youtube.com/watch?v=b585mUCCq0k",
+      "duration_seconds": 2623,
+      "upload_date": "20160727",
+      "chapter": 4,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "ec60bbe6382a221a73a5d2000be8ef48a1799de17da0ae19892fa40b779dd2ce",
+      "caption_cues": 330,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2617.89,
+      "evidence_file_observed_utc": "2026-11-10T12:04:33.366914+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 10,
+      "video_id": "_t-GulwE0Ck",
+      "playlist_title": "Mod-04 Lec-10 Geometric Hypersurfaces are Precisely Algebraic Hypersurfaces",
+      "url": "https://www.youtube.com/watch?v=_t-GulwE0Ck",
+      "duration_seconds": 3208,
+      "upload_date": "20160727",
+      "chapter": 4,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "e258087a28ccb6f2dc2965b0ba23b58ce4893b5d49c49510271474db968b389b",
+      "caption_cues": 417,
+      "caption_first_seconds": 53.89,
+      "caption_last_seconds": 3204.099,
+      "evidence_file_observed_utc": "2026-11-10T12:04:33.406693+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 4,
+          "section": "hypersurfaces",
+          "url": "https://www.youtube.com/watch?v=_t-GulwE0Ck&t=900s",
+          "label": "L10 15:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 11,
+      "video_id": "evfMfi-fe-c",
+      "playlist_title": "Mod-05 Lec-11 Why Should We Study Affine Coordinate Rings of Functions on Affine Varieties ?",
+      "url": "https://www.youtube.com/watch?v=evfMfi-fe-c",
+      "duration_seconds": 2947,
+      "upload_date": "20160727",
+      "chapter": 5,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "d90fa7d39a29663c7e838430bea599af3c3eca62bd3fce4bd0cdcd6eae004080",
+      "caption_cues": 428,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2942.369,
+      "evidence_file_observed_utc": "2026-11-10T12:04:33.444846+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 5,
+          "section": "intrinsic",
+          "url": "https://www.youtube.com/watch?v=evfMfi-fe-c&t=600s",
+          "label": "L11 10:00"
+        },
+        {
+          "chapter": 5,
+          "section": "spectrum",
+          "url": "https://www.youtube.com/watch?v=evfMfi-fe-c&t=1800s",
+          "label": "L11 30:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 12,
+      "video_id": "_s9meZlVsEU",
+      "playlist_title": "Mod-05 Lec-12 Capturing an Affine Variety Topologically",
+      "url": "https://www.youtube.com/watch?v=_s9meZlVsEU",
+      "duration_seconds": 2950,
+      "upload_date": "20160727",
+      "chapter": 5,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "a6b2867d6d46774b9eba604d580c72fc824f00fbf66d58978975c60650dc5023",
+      "caption_cues": 390,
+      "caption_first_seconds": 87.469,
+      "caption_last_seconds": 2945.869,
+      "evidence_file_observed_utc": "2026-11-10T12:04:35.643676+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 5,
+          "section": "quotient",
+          "url": "https://www.youtube.com/watch?v=_s9meZlVsEU&t=0s",
+          "label": "L12 00:00"
+        },
+        {
+          "chapter": 5,
+          "section": "recover",
+          "url": "https://www.youtube.com/watch?v=_s9meZlVsEU&t=600s",
+          "label": "L12 10:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 13,
+      "video_id": "lVCM0lmcK18",
+      "playlist_title": "Mod-06 Lec-13 Analyzing Open Sets and Basic Open Sets for the Zariski Topology",
+      "url": "https://www.youtube.com/watch?v=lVCM0lmcK18",
+      "duration_seconds": 2720,
+      "upload_date": "20160727",
+      "chapter": 6,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "b2cbc3da3d4a23fa23383a6d0206f57f4cd205dab8cc6588627072564eb434b9",
+      "caption_cues": 366,
+      "caption_first_seconds": 56.129,
+      "caption_last_seconds": 2715.65,
+      "evidence_file_observed_utc": "2026-11-10T12:04:33.964007+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 6,
+          "section": "basis",
+          "url": "https://www.youtube.com/watch?v=lVCM0lmcK18&t=600s",
+          "label": "L13 10:00"
+        },
+        {
+          "chapter": 6,
+          "section": "fractions",
+          "url": "https://www.youtube.com/watch?v=lVCM0lmcK18&t=1200s",
+          "label": "L13 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 14,
+      "video_id": "eUA1Bh_JUsc",
+      "playlist_title": "Mod-06 Lec-14 The Ring of Functions on a Basic Open Set in the Zariski Topology",
+      "url": "https://www.youtube.com/watch?v=eUA1Bh_JUsc",
+      "duration_seconds": 2837,
+      "upload_date": "20160727",
+      "chapter": 6,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "632b5c1e282cab7b7ed0104415b7814e8e94725986265737578b629745195aca",
+      "caption_cues": 388,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2832.06,
+      "evidence_file_observed_utc": "2026-11-10T12:04:33.942355+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 6,
+          "section": "graph",
+          "url": "https://www.youtube.com/watch?v=eUA1Bh_JUsc&t=0s",
+          "label": "L14 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 15,
+      "video_id": "ucDSP1uq2Ok",
+      "playlist_title": "Mod-07 Lec-15 Quasi-Compactness in the Zariski Topology",
+      "url": "https://www.youtube.com/watch?v=ucDSP1uq2Ok",
+      "duration_seconds": 3331,
+      "upload_date": "20160727",
+      "chapter": 7,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "d425886cb94363cb6f974e21c4b4f05e21ba1268122371dcf44d1de2d78b1802",
+      "caption_cues": 449,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3327.64,
+      "evidence_file_observed_utc": "2026-11-10T12:04:42.877575+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 7,
+          "section": "compact",
+          "url": "https://www.youtube.com/watch?v=ucDSP1uq2Ok&t=0s",
+          "label": "L15 00:00"
+        },
+        {
+          "chapter": 7,
+          "section": "regular",
+          "url": "https://www.youtube.com/watch?v=ucDSP1uq2Ok&t=1800s",
+          "label": "L15 30:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 16,
+      "video_id": "p0Yw9lK9Ufg",
+      "playlist_title": "Mod-07 Lec-16 What is a Global Regular Function on a Quasi-Affine Variety?",
+      "url": "https://www.youtube.com/watch?v=p0Yw9lK9Ufg",
+      "duration_seconds": 3314,
+      "upload_date": "20160727",
+      "chapter": 7,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "77f240051ca40f4ad9ef7cf69f72d0440260f1e0754f87209d5a5f78f92a5bbc",
+      "caption_cues": 404,
+      "caption_first_seconds": 87.53,
+      "caption_last_seconds": 3310.09,
+      "evidence_file_observed_utc": "2026-11-10T12:04:34.334460+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 7,
+          "section": "affine",
+          "url": "https://www.youtube.com/watch?v=p0Yw9lK9Ufg&t=0s",
+          "label": "L16 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 17,
+      "video_id": "jblh1O9g8Ko",
+      "playlist_title": "Mod-08 Lec-17 Characterizing Affine Varieties",
+      "url": "https://www.youtube.com/watch?v=jblh1O9g8Ko",
+      "duration_seconds": 3209,
+      "upload_date": "20160727",
+      "chapter": 8,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "74b419a09be6d0470a612eea998b5b1cb61923c85aec31a8476d429aaaba4eac",
+      "caption_cues": 450,
+      "caption_first_seconds": 88.36,
+      "caption_last_seconds": 3204.46,
+      "evidence_file_observed_utc": "2026-11-10T12:04:34.740821+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 8,
+          "section": "morphisms",
+          "url": "https://www.youtube.com/watch?v=jblh1O9g8Ko&t=1500s",
+          "label": "L17 25:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 18,
+      "video_id": "aSVXmbmxT4Q",
+      "playlist_title": "Mod-08 Lec-18 Translating Morphisms into Affines as k-Algebra maps",
+      "url": "https://www.youtube.com/watch?v=aSVXmbmxT4Q",
+      "duration_seconds": 3055,
+      "upload_date": "20160727",
+      "chapter": 8,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "816a80be0b7c7ad0e5be4afbaec2b0590e7b9d6e1bbc357ded78913f2784bedb",
+      "caption_cues": 364,
+      "caption_first_seconds": 87.09,
+      "caption_last_seconds": 3051.069,
+      "evidence_file_observed_utc": "2026-11-10T12:04:34.962977+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 8,
+          "section": "morphisms",
+          "url": "https://www.youtube.com/watch?v=aSVXmbmxT4Q&t=0s",
+          "label": "L18 00:00"
+        },
+        {
+          "chapter": 8,
+          "section": "coordinates",
+          "url": "https://www.youtube.com/watch?v=aSVXmbmxT4Q&t=600s",
+          "label": "L18 10:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 19,
+      "video_id": "4ozDnMxA2z4",
+      "playlist_title": "Mod-08 Lec-19 Morphisms into an Affine Correspond to k-Algebra Homomorphisms",
+      "url": "https://www.youtube.com/watch?v=4ozDnMxA2z4",
+      "duration_seconds": 3301,
+      "upload_date": "20160727",
+      "chapter": 8,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "af50e2889ed5c1f0c0f7b597b54f73fdd82ee70cf8c6d2fb62453abd0871bb4f",
+      "caption_cues": 422,
+      "caption_first_seconds": 87.15899999999999,
+      "caption_last_seconds": 3297.45,
+      "evidence_file_observed_utc": "2026-11-10T12:04:35.147149+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 8,
+          "section": "duality",
+          "url": "https://www.youtube.com/watch?v=4ozDnMxA2z4&t=600s",
+          "label": "L19 10:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 20,
+      "video_id": "u2svkFbfNOs",
+      "playlist_title": "Mod-08 Lec-20 The Coordinate Ring of an Affine Variety",
+      "url": "https://www.youtube.com/watch?v=u2svkFbfNOs",
+      "duration_seconds": 3203,
+      "upload_date": "20160727",
+      "chapter": 8,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "b9a203d0a1c05a5e042d41a6f4f6f588d29a237479038f89bf5fae9d936efefe",
+      "caption_cues": 404,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3199.04,
+      "evidence_file_observed_utc": "2026-11-10T12:04:35.370136+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 8,
+          "section": "coordinates",
+          "url": "https://www.youtube.com/watch?v=u2svkFbfNOs&t=0s",
+          "label": "L20 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 21,
+      "video_id": "MO16Q_6axVk",
+      "playlist_title": "Mod-08 Lec-21 Automorphisms of Affine Spaces and of Polynomial Rings - The Jacobian Conjecture",
+      "url": "https://www.youtube.com/watch?v=MO16Q_6axVk",
+      "duration_seconds": 4031,
+      "upload_date": "20160727",
+      "chapter": 8,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "086867feea1029db00402ba465d4d92a0b2866942c69a3241aa8db30fc7880af",
+      "caption_cues": 500,
+      "caption_first_seconds": 87.03999999999999,
+      "caption_last_seconds": 4026.5,
+      "evidence_file_observed_utc": "2026-11-10T12:04:35.586030+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 8,
+          "section": "automorphisms",
+          "url": "https://www.youtube.com/watch?v=MO16Q_6axVk&t=0s",
+          "label": "L21 00:00"
+        },
+        {
+          "chapter": 8,
+          "section": "nonaffine",
+          "url": "https://www.youtube.com/watch?v=MO16Q_6axVk&t=2100s",
+          "label": "L21 35:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 22,
+      "video_id": "VvIgEAyqsWA",
+      "playlist_title": "Mod-09 Lec-22 The Various Avatars of Projective n-space",
+      "url": "https://www.youtube.com/watch?v=VvIgEAyqsWA",
+      "duration_seconds": 2149,
+      "upload_date": "20160803",
+      "chapter": 9,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "1d5cd483bc6c4b749484a9dca0413edad7c54a08bd533c149f4a01b4cf5b4a90",
+      "caption_cues": 291,
+      "caption_first_seconds": 87.46000000000001,
+      "caption_last_seconds": 2144.94,
+      "evidence_file_observed_utc": "2026-11-10T12:04:35.710268+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 9,
+          "section": "points",
+          "url": "https://www.youtube.com/watch?v=VvIgEAyqsWA&t=600s",
+          "label": "L22 10:00"
+        },
+        {
+          "chapter": 9,
+          "section": "homogeneous",
+          "url": "https://www.youtube.com/watch?v=VvIgEAyqsWA&t=1200s",
+          "label": "L22 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 23,
+      "video_id": "AfQRHoPr2Fs",
+      "playlist_title": "Mod-09 Lec-23 Gluing (n+1) copies of Affine n-Space to Produce Projective n-space in Topology",
+      "url": "https://www.youtube.com/watch?v=AfQRHoPr2Fs",
+      "duration_seconds": 3590,
+      "upload_date": "20160803",
+      "chapter": 9,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "48b1f1e7eb5bee505c180895e2060b0fa4bcd11b419d43adfa4da9d07e46f228",
+      "caption_cues": 464,
+      "caption_first_seconds": 0.11,
+      "caption_last_seconds": 3586.42,
+      "evidence_file_observed_utc": "2026-11-10T12:04:36.089915+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 9,
+          "section": "charts",
+          "url": "https://www.youtube.com/watch?v=AfQRHoPr2Fs&t=1200s",
+          "label": "L23 20:00"
+        },
+        {
+          "chapter": 9,
+          "section": "topologies",
+          "url": "https://www.youtube.com/watch?v=AfQRHoPr2Fs&t=2100s",
+          "label": "L23 35:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 24,
+      "video_id": "cz8Tv6bTUGk",
+      "playlist_title": "Mod-10 Lec-24 Translating Projective Geometry into Graded Rings and Homogeneous Ideals",
+      "url": "https://www.youtube.com/watch?v=cz8Tv6bTUGk",
+      "duration_seconds": 3507,
+      "upload_date": "20160803",
+      "chapter": 10,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "82f8849579c2eab75be232950754b34de189600d59ea24f241e957ba5dae9aa0",
+      "caption_cues": 435,
+      "caption_first_seconds": 117.939,
+      "caption_last_seconds": 3503.459,
+      "evidence_file_observed_utc": "2026-11-10T12:04:36.030985+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 10,
+          "section": "grading",
+          "url": "https://www.youtube.com/watch?v=cz8Tv6bTUGk&t=0s",
+          "label": "L24 00:00"
+        },
+        {
+          "chapter": 10,
+          "section": "projective-dictionary",
+          "url": "https://www.youtube.com/watch?v=cz8Tv6bTUGk&t=1800s",
+          "label": "L24 30:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 25,
+      "video_id": "bjmk38mrBn8",
+      "playlist_title": "Mod-10 Lec-25 Expanding the Category of Varieties",
+      "url": "https://www.youtube.com/watch?v=bjmk38mrBn8",
+      "duration_seconds": 3108,
+      "upload_date": "20160812",
+      "chapter": 10,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "5fa2001132e0f81aa5d2be379c849b6f5f0380e7ec4760198519d4e22fab4186",
+      "caption_cues": 416,
+      "caption_first_seconds": 87.03,
+      "caption_last_seconds": 3104.02,
+      "evidence_file_observed_utc": "2026-11-10T12:04:36.473566+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 10,
+          "section": "varieties",
+          "url": "https://www.youtube.com/watch?v=bjmk38mrBn8&t=900s",
+          "label": "L25 15:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 26,
+      "video_id": "D_42A3RnRWI",
+      "playlist_title": "Mod-10 Lec-26 Translating Homogeneous Localisation into Geometry and Back",
+      "url": "https://www.youtube.com/watch?v=D_42A3RnRWI",
+      "duration_seconds": 3085,
+      "upload_date": "20160812",
+      "chapter": 10,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "d060e23023f46ac049575c7bf4935a4f7288e05b063fc21cd84e1d2660585437",
+      "caption_cues": 379,
+      "caption_first_seconds": 82.08,
+      "caption_last_seconds": 3080.5,
+      "evidence_file_observed_utc": "2026-11-10T12:04:36.437853+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 10,
+          "section": "homogenization",
+          "url": "https://www.youtube.com/watch?v=D_42A3RnRWI&t=1500s",
+          "label": "L26 25:00"
+        },
+        {
+          "chapter": 10,
+          "section": "degree-zero",
+          "url": "https://www.youtube.com/watch?v=D_42A3RnRWI&t=2700s",
+          "label": "L26 45:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 27,
+      "video_id": "yjUh100FqpE",
+      "playlist_title": "Mod-10 Lec-27 Adding a Variable is Undone by Homogenous Localization",
+      "url": "https://www.youtube.com/watch?v=yjUh100FqpE",
+      "duration_seconds": 2666,
+      "upload_date": "20160812",
+      "chapter": 10,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "f6de4826887d4b9dbe016e63ec32acb5d518726b262e66b57e019d609e4e96dd",
+      "caption_cues": 328,
+      "caption_first_seconds": 87.08,
+      "caption_last_seconds": 2661.77,
+      "evidence_file_observed_utc": "2026-11-10T12:04:36.450414+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 10,
+          "section": "degree-zero",
+          "url": "https://www.youtube.com/watch?v=yjUh100FqpE&t=600s",
+          "label": "L27 10:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 28,
+      "video_id": "uVn5WAA8eQ8",
+      "playlist_title": "Mod-11 Lec-28 Doing Calculus Without Limits in Geometry",
+      "url": "https://www.youtube.com/watch?v=uVn5WAA8eQ8",
+      "duration_seconds": 3132,
+      "upload_date": "20160812",
+      "chapter": 11,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "487c73092d244560a213cff67d335d6697b45bcf6fb7f2cdfe7b2a25353c8ffe",
+      "caption_cues": 341,
+      "caption_first_seconds": 126.13,
+      "caption_last_seconds": 3131.849,
+      "evidence_file_observed_utc": "2026-11-10T19:01:29.563413+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 11,
+          "section": "affine-covers",
+          "url": "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=0s",
+          "label": "L28 00:00"
+        },
+        {
+          "chapter": 11,
+          "section": "germs",
+          "url": "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=1800s",
+          "label": "L28 30:00"
+        },
+        {
+          "chapter": 11,
+          "section": "local",
+          "url": "https://www.youtube.com/watch?v=uVn5WAA8eQ8&t=2700s",
+          "label": "L28 45:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 29,
+      "video_id": "7qNETTzVhNM",
+      "playlist_title": "Mod-11 Lec-29 The Birth of Local Rings in Geometry and in Algebra",
+      "url": "https://www.youtube.com/watch?v=7qNETTzVhNM",
+      "duration_seconds": 3116,
+      "upload_date": "20160812",
+      "chapter": 11,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "def5d9709946e8cdd9ca576760a60cc731337605be24aa86f3a873f965f6cc2c",
+      "caption_cues": 396,
+      "caption_first_seconds": 13.45,
+      "caption_last_seconds": 3111.559,
+      "evidence_file_observed_utc": "2026-11-10T19:01:32.859829+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 11,
+          "section": "affine",
+          "url": "https://www.youtube.com/watch?v=7qNETTzVhNM&t=2100s",
+          "label": "L29 35:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 30,
+      "video_id": "cVB0QsFHhqM",
+      "playlist_title": "Mod-11 Lec-30 The Formula for the Local Ring at a Point of a Projective Variety",
+      "url": "https://www.youtube.com/watch?v=cVB0QsFHhqM",
+      "duration_seconds": 2907,
+      "upload_date": "20160812",
+      "chapter": 11,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "6db9f925fa1441bcbddd080576999a2177df3726bd38102e2ff9bdd4848a155b",
+      "caption_cues": 336,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2902.7,
+      "evidence_file_observed_utc": "2026-11-10T19:01:36.231824+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 11,
+          "section": "projective",
+          "url": "https://www.youtube.com/watch?v=cVB0QsFHhqM&t=0s",
+          "label": "L30 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 31,
+      "video_id": "iYNMR0JthMA",
+      "playlist_title": "Mod-12 Lec 31 The Field of Rational Functions or Function Field of a Variety",
+      "url": "https://www.youtube.com/watch?v=iYNMR0JthMA",
+      "duration_seconds": 3196,
+      "upload_date": "20160826",
+      "chapter": 12,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "c014a75e3b576774c196b8ec548335cbde7026e14b20f043e51e6600eb724b58",
+      "caption_cues": 433,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3191.91,
+      "evidence_file_observed_utc": "2026-11-10T19:01:39.615009+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 12,
+          "section": "rational",
+          "url": "https://www.youtube.com/watch?v=iYNMR0JthMA&t=600s",
+          "label": "L31 10:00"
+        },
+        {
+          "chapter": 12,
+          "section": "global-local",
+          "url": "https://www.youtube.com/watch?v=iYNMR0JthMA&t=2100s",
+          "label": "L31 35:00"
+        },
+        {
+          "chapter": 12,
+          "section": "open",
+          "url": "https://www.youtube.com/watch?v=iYNMR0JthMA&t=2400s",
+          "label": "L31 40:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 32,
+      "video_id": "yLuTYv8S-UU",
+      "playlist_title": "Mod-12 Lec 32 Fields of Rational Functions or Function Fields of Affine and Projective Varieties",
+      "url": "https://www.youtube.com/watch?v=yLuTYv8S-UU",
+      "duration_seconds": 3333,
+      "upload_date": "20160826",
+      "chapter": 12,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "88e1f5825f20a93be53d2f3068719f3cf9175f197c6f7a488de46c3defe75c5e",
+      "caption_cues": 411,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3328.859,
+      "evidence_file_observed_utc": "2026-11-10T19:01:43.022088+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 12,
+          "section": "affine",
+          "url": "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=0s",
+          "label": "L32 00:00"
+        },
+        {
+          "chapter": 12,
+          "section": "projective",
+          "url": "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=1200s",
+          "label": "L32 20:00"
+        },
+        {
+          "chapter": 12,
+          "section": "dimension",
+          "url": "https://www.youtube.com/watch?v=yLuTYv8S-UU&t=2700s",
+          "label": "L32 45:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 33,
+      "video_id": "zn77pSkvi9s",
+      "playlist_title": "Mod-13 Lec 33 Global Regular Functions on Projective Varieties are Simply the Constants",
+      "url": "https://www.youtube.com/watch?v=zn77pSkvi9s",
+      "duration_seconds": 3135,
+      "upload_date": "20160826",
+      "chapter": 13,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "77e9bfd76fb299c91c33d4049d9c06448ab79a481faf51ded48528864d16637d",
+      "caption_cues": 432,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 3130.99,
+      "evidence_file_observed_utc": "2026-11-10T19:01:46.358442+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 13,
+          "section": "constant",
+          "url": "https://www.youtube.com/watch?v=zn77pSkvi9s&t=0s",
+          "label": "L33 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 34,
+      "video_id": "zpKPp5ozAU0",
+      "playlist_title": "Mod-13 Lec 34 The d-Uple Embedding and the Non-Intrinsic Nature  of the Homogeneous Coordinate Ring",
+      "url": "https://www.youtube.com/watch?v=zpKPp5ozAU0",
+      "duration_seconds": 3506,
+      "upload_date": "20160826",
+      "chapter": 13,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "6ec12e8bd6ac102f7cbda68a90599bfe4989770a08ed82340e8a7d01a370a7be",
+      "caption_cues": 444,
+      "caption_first_seconds": 87.13,
+      "caption_last_seconds": 3501.769,
+      "evidence_file_observed_utc": "2026-11-10T19:01:49.680669+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 13,
+          "section": "veronese",
+          "url": "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=300s",
+          "label": "L34 05:00"
+        },
+        {
+          "chapter": 13,
+          "section": "closed",
+          "url": "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=600s",
+          "label": "L34 10:00"
+        },
+        {
+          "chapter": 13,
+          "section": "conic",
+          "url": "https://www.youtube.com/watch?v=zpKPp5ozAU0&t=1200s",
+          "label": "L34 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 35,
+      "video_id": "eouz_gZF5SQ",
+      "playlist_title": "Mod-14 Lec 35 The Importance of Local Rings - A Morphism is an Isomorphism",
+      "url": "https://www.youtube.com/watch?v=eouz_gZF5SQ",
+      "duration_seconds": 2863,
+      "upload_date": "20160826",
+      "chapter": 14,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "14685877609de4d4a24db1b6222cc770493684feb29cecd4d429839bd987949a",
+      "caption_cues": 353,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2858.77,
+      "evidence_file_observed_utc": "2026-11-10T18:59:13.504579+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 14,
+          "section": "pullbacks",
+          "url": "https://www.youtube.com/watch?v=eouz_gZF5SQ&t=300s",
+          "label": "L35 05:00"
+        },
+        {
+          "chapter": 14,
+          "section": "isomorphism",
+          "url": "https://www.youtube.com/watch?v=eouz_gZF5SQ&t=900s",
+          "label": "L35 15:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 36,
+      "video_id": "MEyPcwMBqqA",
+      "playlist_title": "Mod-14 Lec 36 The Importance of Local Rings",
+      "url": "https://www.youtube.com/watch?v=MEyPcwMBqqA",
+      "duration_seconds": 2848,
+      "upload_date": "20160826",
+      "chapter": 14,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "810192bde1f9c746e3f507198fe8f9ad8f781a732c291cefc49732047fa985b5",
+      "caption_cues": 338,
+      "caption_first_seconds": 87.0,
+      "caption_last_seconds": 2842.88,
+      "evidence_file_observed_utc": "2026-11-10T19:00:29.430335+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 14,
+          "section": "intersection",
+          "url": "https://www.youtube.com/watch?v=MEyPcwMBqqA&t=0s",
+          "label": "L36 00:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 37,
+      "video_id": "eueMaSU2oRo",
+      "playlist_title": "Mod-14 Lec 37 Geometric Meaning of Isomorphism of Local Rings",
+      "url": "https://www.youtube.com/watch?v=eueMaSU2oRo",
+      "duration_seconds": 3241,
+      "upload_date": "20160826",
+      "chapter": 14,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "8d5be9f74d1374814c6aab7d71195eb6ead18e41af844ec2bb85ecafba9e3d0e",
+      "caption_cues": 412,
+      "caption_first_seconds": 87.09,
+      "caption_last_seconds": 3231.29,
+      "evidence_file_observed_utc": "2026-11-10T19:00:36.178949+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 14,
+          "section": "neighborhoods",
+          "url": "https://www.youtube.com/watch?v=eueMaSU2oRo&t=300s",
+          "label": "L37 05:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 38,
+      "video_id": "t5p7IF1S9mY",
+      "playlist_title": "Mod-14 Lec 38 Local Ring Isomorphism,  Equals Function Field Isomorphism,  Equals Birationality",
+      "url": "https://www.youtube.com/watch?v=t5p7IF1S9mY",
+      "duration_seconds": 3686,
+      "upload_date": "20160826",
+      "chapter": 14,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "8ea24899aa4d015b4d675aa643a9a1f5a5a90cd00f72ae600fc6507007e75064",
+      "caption_cues": 442,
+      "caption_first_seconds": 87.0,
+      "caption_last_seconds": 3682.3,
+      "evidence_file_observed_utc": "2026-11-10T19:00:55.629625+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 14,
+          "section": "birational",
+          "url": "https://www.youtube.com/watch?v=t5p7IF1S9mY&t=1500s",
+          "label": "L38 25:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 39,
+      "video_id": "-03WiXf687k",
+      "playlist_title": "Mod-15 Lec 39 Why Local Rings Provide Calculus Without Limits for Algebraic Geometry Pun Intended!",
+      "url": "https://www.youtube.com/watch?v=-03WiXf687k",
+      "duration_seconds": 3574,
+      "upload_date": "20160826",
+      "chapter": 15,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "bc88cf34680d5ab2b2802622ed3b12e2676f81f1c3c1a7383b68aa9b21cb012e",
+      "caption_cues": 447,
+      "caption_first_seconds": 86.99,
+      "caption_last_seconds": 3569.63,
+      "evidence_file_observed_utc": "2026-11-10T19:01:16.732123+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 15,
+          "section": "first-order",
+          "url": "https://www.youtube.com/watch?v=-03WiXf687k&t=2400s",
+          "label": "L39 40:00"
+        },
+        {
+          "chapter": 15,
+          "section": "regular",
+          "url": "https://www.youtube.com/watch?v=-03WiXf687k&t=2700s",
+          "label": "L39 45:00"
+        },
+        {
+          "chapter": 15,
+          "section": "curves",
+          "url": "https://www.youtube.com/watch?v=-03WiXf687k&t=1500s",
+          "label": "L39 25:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 40,
+      "video_id": "wzpEO3tZJAE",
+      "playlist_title": "Mod-15 Lec 40 How Local Rings Detect Smoothness or Nonsingularity in Algebraic Geometry",
+      "url": "https://www.youtube.com/watch?v=wzpEO3tZJAE",
+      "duration_seconds": 3428,
+      "upload_date": "20160826",
+      "chapter": 15,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "7011f4d5b7290c5f9f65b600350675aaf2c1821b07bba71d673233137d49010b",
+      "caption_cues": 468,
+      "caption_first_seconds": 73.9,
+      "caption_last_seconds": 3424.25,
+      "evidence_file_observed_utc": "2026-11-10T19:01:22.203842+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 15,
+          "section": "jacobian",
+          "url": "https://www.youtube.com/watch?v=wzpEO3tZJAE&t=1200s",
+          "label": "L40 20:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 41,
+      "video_id": "si24lvd-f_M",
+      "playlist_title": "Mod-15 Lec 41 Any Variety is a Smooth Manifold with or without Non-Smooth Boundary",
+      "url": "https://www.youtube.com/watch?v=si24lvd-f_M",
+      "duration_seconds": 2329,
+      "upload_date": "20160826",
+      "chapter": 15,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "07a9bc06938189ab31555f771847e2785ed9c5c21ce9661a47690390581fd13b",
+      "caption_cues": 301,
+      "caption_first_seconds": 0.12,
+      "caption_last_seconds": 2319.81,
+      "evidence_file_observed_utc": "2026-11-10T19:01:27.661624+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 15,
+          "section": "singular-locus",
+          "url": "https://www.youtube.com/watch?v=si24lvd-f_M&t=1500s",
+          "label": "L41 25:00"
+        },
+        {
+          "chapter": 15,
+          "section": "analytic",
+          "url": "https://www.youtube.com/watch?v=si24lvd-f_M&t=2100s",
+          "label": "L41 35:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    },
+    {
+      "lecture": 42,
+      "video_id": "iLhwIXxf7bY",
+      "playlist_title": "Mod-15 Lec 42 Any Variety is a Smooth Hypersurface On an Open Dense Subset",
+      "url": "https://www.youtube.com/watch?v=iLhwIXxf7bY",
+      "duration_seconds": 2596,
+      "upload_date": "20160826",
+      "chapter": 15,
+      "caption_status": "acquired",
+      "caption_provider_label": "English - NPTEL Official",
+      "caption_category": "subtitles rather than automatic_captions in extractor metadata",
+      "caption_sha256": "2331909e8ca648a4a3c9dc9489df9ddea974214f5d59e76e676f681716050a58",
+      "caption_cues": 364,
+      "caption_first_seconds": 131.03,
+      "caption_last_seconds": 2592.17,
+      "evidence_file_observed_utc": "2026-11-10T19:01:32.995564+00:00",
+      "coverage": {
+        "identity": "full",
+        "textual_acquisition": "full",
+        "textual_analysis": "topic and selected-span review; chapter-specific maps where available",
+        "visual": "not-performed",
+        "direct_audio": "not-performed",
+        "temporal": "caption-span-addressable"
+      },
+      "section_links": [
+        {
+          "chapter": 15,
+          "section": "dense",
+          "url": "https://www.youtube.com/watch?v=iLhwIXxf7bY&t=600s",
+          "label": "L42 10:00"
+        }
+      ],
+      "limitation": "No claim of exhaustive spoken-detail or blackboard reconstruction; formulas are independently developed and reviewed."
+    }
+  ],
+  "publication_boundary": "Original notes and compact metadata only; captions, source media and signed retrieval URLs are private."
+}

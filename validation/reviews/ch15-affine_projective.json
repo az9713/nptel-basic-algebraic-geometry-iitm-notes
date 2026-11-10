@@ -1,0 +1,17 @@
+{
+  "chapter": 15,
+  "author": "geometric_local",
+  "reviewer": "affine_projective",
+  "original_sha256": "7a4c826880ae5226443b1864c9537966cd0551408c591794339a98b19d0b7dc7",
+  "final_sha256": "34b3f686afd5d7d78366a6417f696814dd64c07cb1faf528feba9a8e97992e7c",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch15-affine_projective.md",
+  "limitations": [
+    "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+    "Source maps checked for lecture-topic concordance; not an exhaustive independent L28\u201342 caption reread.",
+    "No audio, video, or blackboard-frame inspection.",
+    "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+    "Browser rendering and exact source timestamps are separate checks."
+  ]
+}

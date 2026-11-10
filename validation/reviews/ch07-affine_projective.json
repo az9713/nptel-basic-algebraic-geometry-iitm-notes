@@ -1,0 +1,17 @@
+{
+  "chapter": 7,
+  "author": "root",
+  "reviewer": "affine_projective",
+  "original_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+  "final_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch07-affine_projective.md",
+  "limitations": [
+    "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+    "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1\u201316 caption cues.",
+    "No audio, video, or board-frame inspection by this reviewer.",
+    "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+    "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+  ]
+}

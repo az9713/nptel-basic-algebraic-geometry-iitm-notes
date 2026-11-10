@@ -1,0 +1,16 @@
+{
+  "chapter": 5,
+  "author": "root",
+  "reviewer": "local_functions",
+  "original_sha256": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+  "final_sha256": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+  "review_kind": "independent-full-science-editor",
+  "status": "accepted",
+  "report": "validation/reviews/ch05-local_functions.md",
+  "limitations": [
+    "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+    "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+    "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+    "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+  ]
+}

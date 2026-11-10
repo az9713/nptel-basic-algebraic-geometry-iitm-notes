@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Independent lecture notes for NPTEL Basic Algebraic Geometry, IIT Madras.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; object-src 'none'; base-uri 'none'">
+<title>Study guide — Basic Algebraic Geometry</title><link rel="stylesheet" href="assets/book.css">
+<script defer src="assets/math-config.js"></script><script defer src="assets/mathjax-tex-svg.js"></script><script defer src="assets/book.js"></script><script defer src="assets/curves.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">BASIC ALGEBRAIC GEOMETRY</a><div class="toolbar-controls"><button data-action="theme" type="button">Theme</button> <button data-action="print" type="button">Print / PDF</button></div></header>
+<div class="layout"><aside><nav aria-label="Course contents"><details open><summary>Chapters and resources</summary><ol><li><a  href="chapter-01.html">Equations, topology, and the vanishing dictionary</a></li><li><a  href="chapter-02.html">Irreducibility and prime ideals</a></li><li><a  href="chapter-03.html">Noetherian spaces and irreducible components</a></li><li><a  href="chapter-04.html">Dimension, coordinate rings, and hypersurfaces</a></li><li><a  href="chapter-05.html">Recovering affine geometry from its ring</a></li><li><a  href="chapter-06.html">Basic open sets and localization</a></li><li><a  href="chapter-07.html">Quasi-compactness and regular functions</a></li><li><a  href="chapter-08.html">Affine morphisms, duality, and automorphisms</a></li><li><a  href="chapter-09.html">Projective space and affine gluing</a></li><li><a  href="chapter-10.html">Homogeneous geometry and degree-zero localization</a></li><li><a  href="chapter-11.html">Germs and local rings</a></li><li><a  href="chapter-12.html">Rational functions and function fields</a></li><li><a  href="chapter-13.html">Projective functions and Veronese embeddings</a></li><li><a  href="chapter-14.html">Local isomorphisms and birational geometry</a></li><li><a  href="chapter-15.html">Tangent spaces, nonsingularity, and smooth open sets</a></li></ol><p><a href="study-guide.html">Study guide</a><br><a href="source-map.html">42 recordings and coverage</a><br><a href="laboratory.html">Algebra laboratory</a><br><a href="figures.html">Explore curves and tangents</a><br><a href="references.html">Sources and attribution</a><br><a href="about.html">Verification and limitations</a></p></details></nav></aside>
+<main id="main"><p class="eyebrow">Routes, prerequisites, and retrieval practice</p><h1>Study guide</h1>
+<p class="lede">The course's central skill is translation. Given a geometric assertion, identify the ring, ideal, localization, or field statement that makes it precise. Then check whether the reverse translation preserves the information you need.</p>
+<section id="prerequisites"><h2>Prerequisites to refresh</h2>
+<p>Before Chapter 1, be able to construct a quotient ring and prove that the kernel of a ring map is an ideal. Know that an ideal is prime exactly when its quotient is a domain, and maximal exactly when its quotient is a field. Polynomial division in one variable and factorization in polynomial rings supply the first examples.</p>
+<p>For topology, know open and closed sets, induced topology, continuity, closure, and finite-subcover compactness. The Zariski topology behaves differently from Euclidean topology: large dense opens intersect, while classical points are still closed. Avoid importing a picture's Euclidean components into a statement about Zariski irreducibility.</p>
+<p>Before function fields and nonsingularity, refresh algebraic independence, fraction fields, dual vector spaces, matrix rank, and formal partial derivatives. A derivative in a polynomial ring uses algebra, not limits; its behavior in positive characteristic must be checked separately.</p>
+</section>
+<section id="routes"><h2>Three useful routes</h2>
+<table><thead><tr><th>Purpose</th><th>Route</th><th>What to be able to do</th></tr></thead><tbody>
+<tr><td>Build the foundations</td><td>Chapters 1–8 in order</td><td>Recover affine geometry from coordinate rings and translate morphisms into algebra maps.</td></tr>
+<tr><td>Understand projective geometry</td><td>Chapters 1–8, then 9–13</td><td>Compute charts, homogeneous ideals, degree-zero localizations, local rings, and projective regular functions.</td></tr>
+<tr><td>Study singularities and birational models</td><td>Chapters 1–8, 11–12, then 14–15; return to 9–10 and 13 for projective examples</td><td>Separate a point's local geometry from its function field; calculate tangent spaces and locate the smooth open subset.</td></tr>
+</tbody></table>
+<p>These are dependency routes rather than claims that some recordings are unimportant. The source map preserves all forty-two. If an argument invokes a theorem from commutative algebra, read its precise statement first; follow the primary reference when you want the proof beyond the course's chosen scope.</p>
+</section>
+<section id="dictionary"><h2>The dictionary to reconstruct from memory</h2>
+<table><thead><tr><th>Geometry</th><th>Algebra</th><th>Hypothesis or boundary</th></tr></thead><tbody>
+<tr><td>Closed subset of affine space</td><td>Radical ideal</td><td>Classical points over an algebraically closed field.</td></tr>
+<tr><td>Irreducible closed subset</td><td>Prime ideal</td><td>Use the vanishing ideal or radical, not an arbitrary displayed defining ideal.</td></tr>
+<tr><td>Classical point</td><td>Maximal ideal</td><td>Finite-type algebra over the algebraically closed ground field.</td></tr>
+<tr><td>Closed inclusion</td><td>Quotient of coordinate rings</td><td>Arrows reverse.</td></tr>
+<tr><td>Principal open \(D(f)\)</td><td>Localization \(A_f\)</td><td>Only denominators invertible on that open are permitted.</td></tr>
+<tr><td>Morphism into an affine variety</td><td>Map from its coordinate ring to global regular functions on the source</td><td>The target is affine; the source need not be.</td></tr>
+<tr><td>Neighborhood of a point</td><td>Local ring \(\mathcal O_{X,p}\)</td><td>A germ is an equivalence class under shrinking neighborhoods.</td></tr>
+<tr><td>Birational type</td><td>Function field \(k(X)\)</td><td>Irreducible varieties, dominant rational maps, and maps over the fixed field.</td></tr>
+<tr><td>Nonsingularity at a closed point</td><td>\(\dim_k\mathfrak m_p/\mathfrak m_p^2=\dim\mathcal O_{X,p}\)</td><td>Finite type over the algebraically closed field; distinguish regularity from relative smoothness over arbitrary fields.</td></tr>
+</tbody></table>
+</section>
+<section id="practice"><h2>A cumulative sequence of problems</h2>
+<ol><li><strong>Parabola.</strong> Find its vanishing ideal and coordinate ring, prove irreducibility, construct the isomorphism with a line, and compute its local ring at a chosen point.</li>
+<li><strong>Crossing.</strong> Decompose \(xy=0\), identify zero divisors, and explain why connectedness fails to isolate the irreducible pieces.</li>
+<li><strong>Punctured line and plane.</strong> Compute their rings of regular functions. Explain why the first is affine while the second is not. Identify the exact place where the affine duality theorem is used.</li>
+<li><strong>Cusp.</strong> Use \(x=t^2,y=t^3\). Recover the rational inverse on a dense open, prove the map is not an isomorphism at the origin, and compare the curve's dimension with its tangent-space dimension.</li>
+<li><strong>Projective line.</strong> Glue its two affine charts; compute its function field, global regular functions, and local rings at a finite point and at infinity. Then compare the usual embedding with its Veronese conic.</li>
+<li><strong>Node.</strong> Use \(x=t^2-1,y=t(t^2-1)\). Find the two parameter values mapping to the singular point and compare the tangent cone with the Zariski tangent space.</li></ol>
+<p>Each construction appears with worked reasoning in the chapters. The <a href="laboratory.html">laboratory</a> verifies selected identities; the <a href="figures.html">curve explorer</a> exposes the cusp/node contrast. Reconstruct the proofs before using either as a shortcut.</p>
+</section>
+<section id="next"><h2>Where to go after the course</h2>
+<p>A natural next project is to implement a small dictionary explorer: enter polynomial generators, compute a Gröbner basis, inspect principal opens, and compare tangent ranks at selected points. Require it to state the field and distinguish ideal membership from radical membership. The most useful failure cases are often more educational than another smooth example.</p>
+<p>For the next mathematical layer, learn affine schemes and their structure sheaves. The generic prime of a domain and the nilpotent class in \(k[\epsilon]/(\epsilon^2)\) explain why maximal points alone cannot support all of modern algebraic geometry. Then study morphism properties—finite, proper, smooth, and étale—before drawing global conclusions from a local Jacobian calculation.</p>
+</section>
+<footer>Independent study edition · NPTEL / IIT Madras lecture spine · Original exposition and exercises. No institutional endorsement.</footer></main></div></body></html>

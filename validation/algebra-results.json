@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checks": {
+    "unit_ideal_certificate": "1",
+    "nilpotent_example_remainders": [
+      "x",
+      "0"
+    ],
+    "three_component_polynomial": "x*y*(x - 1)",
+    "cusp_rational_inverse": "t (on t != 0)",
+    "triangular_map_jacobian": "1",
+    "veronese_relation": "0",
+    "tangent_spaces_over_Q": {
+      "cusp_origin": {
+        "rank": 0,
+        "tangent_dimension": 2
+      },
+      "node_origin": {
+        "rank": 0,
+        "tangent_dimension": 2
+      },
+      "cusp_at_1_1": {
+        "rank": 1,
+        "tangent_dimension": 1
+      }
+    },
+    "characteristic_5_example": {
+      "derivative": "1",
+      "five_inputs_same_output": true
+    },
+    "homogenized_parabola": "-x**2 + y*z"
+  },
+  "scope": "exact finite examples; not proofs of general theorems"
+}

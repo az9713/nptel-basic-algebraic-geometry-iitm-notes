@@ -1,0 +1,11 @@
+{
+  "chapter": 15,
+  "author": "geometric_local",
+  "reviewer": "root",
+  "original_sha256": "1cade2aa66ccdf11e307f11b924990e66318912f5713eda60e5c807e836b21d1",
+  "final_sha256": "34b3f686afd5d7d78366a6417f696814dd64c07cb1faf528feba9a8e97992e7c",
+  "review_kind": "full science-editor review plus targeted repair confirmation",
+  "status": "accepted",
+  "report": "validation/reviews/ch15-root.md",
+  "limitations": "Full manuscript review, including worked solutions; source-topic concordance from available selected evidence only, not a second full caption read. No direct audio/video review, no formal proof assistant, and no reproduction of invoked general algebraic/analytic theorems."
+}

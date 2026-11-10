@@ -1,0 +1,17 @@
+[
+ {"number":1,"title":"Equations, topology, and the vanishing dictionary","lectures":[1,2,3]},
+ {"number":2,"title":"Irreducibility and prime ideals","lectures":[4,5]},
+ {"number":3,"title":"Noetherian spaces and irreducible components","lectures":[6,7]},
+ {"number":4,"title":"Dimension, coordinate rings, and hypersurfaces","lectures":[8,9,10]},
+ {"number":5,"title":"Recovering affine geometry from its ring","lectures":[11,12]},
+ {"number":6,"title":"Basic open sets and localization","lectures":[13,14]},
+ {"number":7,"title":"Quasi-compactness and regular functions","lectures":[15,16]},
+ {"number":8,"title":"Affine morphisms, duality, and automorphisms","lectures":[17,18,19,20,21]},
+ {"number":9,"title":"Projective space and affine gluing","lectures":[22,23]},
+ {"number":10,"title":"Homogeneous geometry and degree-zero localization","lectures":[24,25,26,27]},
+ {"number":11,"title":"Germs and local rings","lectures":[28,29,30]},
+ {"number":12,"title":"Rational functions and function fields","lectures":[31,32]},
+ {"number":13,"title":"Projective functions and Veronese embeddings","lectures":[33,34]},
+ {"number":14,"title":"Local isomorphisms and birational geometry","lectures":[35,36,37,38]},
+ {"number":15,"title":"Tangent spaces, nonsingularity, and smooth open sets","lectures":[39,40,41,42]}
+]

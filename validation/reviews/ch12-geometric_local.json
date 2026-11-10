@@ -1,0 +1,13 @@
+{
+  "chapter": 12,
+  "author": "local_functions",
+  "reviewer": "geometric_local",
+  "original_sha256": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+  "final_sha256": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch12-geometric_local.md",
+  "limitations": [
+    "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+  ]
+}

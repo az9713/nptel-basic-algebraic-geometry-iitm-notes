@@ -1,0 +1,17 @@
+{
+  "chapter": 8,
+  "author": "affine_projective",
+  "reviewer": "local_functions",
+  "original_sha256": "58b47d2a7f9ea7b0dd92e20a682944ed70fc1bf5e1e96f0787719c7be289b56f",
+  "final_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+  "review_kind": "independent-full-science-editor",
+  "status": "accepted",
+  "report": "validation/reviews/ch08-local_functions.md",
+  "limitations": [
+    "Actual complete HTML manuscript read, including proofs and solutions; no human/institutional review or formal proof certification.",
+    "Lecture-topic fidelity checked against chapters.json, the complete private chapter map, and 45-second official-caption samples at every linked heading. Complete L17\u201327 captions were not independently reread in this review.",
+    "No audio, blackboard/video images, browser rendering, responsive layout or accessibility inspection in this review.",
+    "The ch08 dated research attribution was checked against live primary abstracts, but the counterexample constructions and proofs were not independently reproduced.",
+    "The external general algebraic/Proj theorems were checked for their stated use and hypotheses; all external proofs were not reproduced."
+  ]
+}

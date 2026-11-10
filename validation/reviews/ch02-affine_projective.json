@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "author": "root",
+  "reviewer": "affine_projective",
+  "original_sha256": "20a8ceda7503dbd1bf1af9a531433595c5c66b51e144c315be3666597cfa4928",
+  "final_sha256": "2381e9536ca77095b7cca468a15b2e60d75b8f40f7ab7a4d0b9f309aff93c3a9",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch02-affine_projective.md",
+  "limitations": [
+    "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+    "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1\u201316 caption cues.",
+    "No audio, video, or board-frame inspection by this reviewer.",
+    "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+    "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+  ],
+  "hash_followup": "Final manuscript newline normalization was checked mechanically: converting the final LF bytes to CRLF reproduced the previously accepted digest exactly. No mathematical content changed in this conversion. This record binds the final LF bytes."
+}

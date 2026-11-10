@@ -1,0 +1,2 @@
+# Optional: needed only to retrieve private caption evidence again.
+requests==2.32.3

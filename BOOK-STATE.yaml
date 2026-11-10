@@ -1,0 +1,13 @@
+status: release-accepted
+course: NPTEL Basic Algebraic Geometry, IIT Madras
+chapters: 15
+recordings: 42
+source_manifest: source-manifest.json
+manuscript: chapters/ch01.html through chapters/ch15.html
+notation: plan/notation.md
+review_contract: validation/REVIEW_CONTRACT.md
+review_index: validation/review-index.json
+review_rule: two independent full reviews per chapter, neither by its author
+publication_state: verified separately in GitHub workflow and Pages records
+sources_private: work/sources/
+scope: independent original study edition; no exhaustive audiovisual claim

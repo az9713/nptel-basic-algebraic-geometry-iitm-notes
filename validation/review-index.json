@@ -1,0 +1,506 @@
+{
+  "reviews": [
+    {
+      "chapter": 1,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "e51cb5852aacda74ebcc181368d7a860ea9fcd819b459c8e47842e32866fb902",
+      "final_sha256": "c775687298505be63ae2c1f6fdd5457ddefaef1f161e0b3faef56a31aae8ee34",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch01-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "hash_followup": "Final manuscript newline normalization was checked mechanically: converting the final LF bytes to CRLF reproduced the previously accepted digest exactly. No mathematical content changed in this conversion. This record binds the final LF bytes.",
+      "record": "validation/reviews/ch01-affine_projective.json"
+    },
+    {
+      "chapter": 1,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "e51cb5852aacda74ebcc181368d7a860ea9fcd819b459c8e47842e32866fb902",
+      "final_sha256": "c775687298505be63ae2c1f6fdd5457ddefaef1f161e0b3faef56a31aae8ee34",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch01-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch01-local_functions.json"
+    },
+    {
+      "chapter": 2,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "20a8ceda7503dbd1bf1af9a531433595c5c66b51e144c315be3666597cfa4928",
+      "final_sha256": "2381e9536ca77095b7cca468a15b2e60d75b8f40f7ab7a4d0b9f309aff93c3a9",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch02-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "hash_followup": "Final manuscript newline normalization was checked mechanically: converting the final LF bytes to CRLF reproduced the previously accepted digest exactly. No mathematical content changed in this conversion. This record binds the final LF bytes.",
+      "record": "validation/reviews/ch02-affine_projective.json"
+    },
+    {
+      "chapter": 2,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "e74f77b6a165a1564800cea7fe60a58efdbf960b4a11f53163e06ba4fca448e8",
+      "final_sha256": "2381e9536ca77095b7cca468a15b2e60d75b8f40f7ab7a4d0b9f309aff93c3a9",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch02-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch02-local_functions.json"
+    },
+    {
+      "chapter": 3,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "3bb7b8bde7aeba2197d5e08f19d50f6ceaffd8aec603d454822959a11eac809b",
+      "final_sha256": "f5f54e732299299aa01ae81ea7646512ba21e1e7d0dccb4fb1f132a55bbf707e",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch03-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "hash_followup": "Final manuscript newline normalization was checked mechanically: converting the final LF bytes to CRLF reproduced the previously accepted digest exactly. No mathematical content changed in this conversion. This record binds the final LF bytes.",
+      "record": "validation/reviews/ch03-affine_projective.json"
+    },
+    {
+      "chapter": 3,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "c33d8b84d9e322be28604da86b8d79e379f83dff9fada170ffaa8104a1b05539",
+      "final_sha256": "f5f54e732299299aa01ae81ea7646512ba21e1e7d0dccb4fb1f132a55bbf707e",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch03-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch03-local_functions.json"
+    },
+    {
+      "chapter": 4,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "c8493972efa752f3eb1955b1c1c74c52ac2141fcc461d4a32703474cf5ce5d37",
+      "final_sha256": "3d738e77a000834d24bbee59b7c003d423897f9f6f5003ca8e8afe76ba05ad9b",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch04-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "hash_followup": "After the initial acceptance, the author added an explicit cusp substitution-kernel proof. The reviewer inspected that addition: monic division by y²−x³ leaves A(x)+yB(x); substitution produces even and odd powers of t separately, proving the exact kernel in every characteristic. The image is a domain, so the ideal is prime and is the full vanishing ideal over k. The addition is accepted. The final file was normalized to LF mechanically.",
+      "record": "validation/reviews/ch04-affine_projective.json"
+    },
+    {
+      "chapter": 4,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "475f14a69f133a694ffa2957db3b1dbfcfbd7af456e7e01c9e0c0e037d3c7e79",
+      "final_sha256": "3d738e77a000834d24bbee59b7c003d423897f9f6f5003ca8e8afe76ba05ad9b",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch04-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch04-local_functions.json"
+    },
+    {
+      "chapter": 5,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "2da8194bb963df2884bad6b5b6bcd6d0b14cfc96a414e44a1b769881dfb4455b",
+      "final_sha256": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch05-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "record": "validation/reviews/ch05-affine_projective.json"
+    },
+    {
+      "chapter": 5,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+      "final_sha256": "722657bcf5729e93471ad2c7edfeb57868e2b26b939247b0f3ed610d64000d4a",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch05-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch05-local_functions.json"
+    },
+    {
+      "chapter": 6,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "d6c8ae836f15871dc496d51ca7f3893cd9d6f9fae0059919057d855b51fa9691",
+      "final_sha256": "b83bd4638027620f16e3d20a1d16d165cb1e6a74d2843d07a4a24792844c0eba",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch06-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "record": "validation/reviews/ch06-affine_projective.json"
+    },
+    {
+      "chapter": 6,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "b83bd4638027620f16e3d20a1d16d165cb1e6a74d2843d07a4a24792844c0eba",
+      "final_sha256": "b83bd4638027620f16e3d20a1d16d165cb1e6a74d2843d07a4a24792844c0eba",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch06-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch06-local_functions.json"
+    },
+    {
+      "chapter": 7,
+      "author": "root",
+      "reviewer": "affine_projective",
+      "original_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+      "final_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch07-affine_projective.md",
+      "limitations": [
+        "Complete manuscript and exercises read; accepted after described targeted repair verification.",
+        "Lecture-topic fidelity assessed from available project evidence; not an exhaustive independent reread of all L1–16 caption cues.",
+        "No audio, video, or board-frame inspection by this reviewer.",
+        "Invoked external algebraic theorems checked for scope/application, not reproved or formally verified.",
+        "Browser rendering, TeX lint, and timestamp accuracy are separate validation tasks."
+      ],
+      "record": "validation/reviews/ch07-affine_projective.json"
+    },
+    {
+      "chapter": 7,
+      "author": "root",
+      "reviewer": "local_functions",
+      "original_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+      "final_sha256": "d5eef2e2ff2a3ca6aef6a12c506c5d45e82dfb243912b3864f5e90880a3440b1",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch07-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read and mathematical/editorial assessment; not a human or institutional review and not formal proof verification.",
+        "Source-topic fidelity checked against chapters.json and 45-second official-caption samples at all linked headings; only L13 was independently reread in full during this review. No claim of exhaustive source coverage.",
+        "Audio, blackboard images and video were not inspected. Browser rendering, responsive layout, accessibility and live external-link availability were not tested in this review.",
+        "General cited algebraic theorems were checked for the stated hypotheses and use; their external proofs were not all independently reproduced."
+      ],
+      "record": "validation/reviews/ch07-local_functions.json"
+    },
+    {
+      "chapter": 8,
+      "author": "affine_projective",
+      "reviewer": "geometric_local",
+      "original_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+      "final_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch08-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+      ],
+      "record": "validation/reviews/ch08-geometric_local.json"
+    },
+    {
+      "chapter": 8,
+      "author": "affine_projective",
+      "reviewer": "local_functions",
+      "original_sha256": "58b47d2a7f9ea7b0dd92e20a682944ed70fc1bf5e1e96f0787719c7be289b56f",
+      "final_sha256": "92137c44d56f6f37ac77098e3df10410d488953112317cb0fad79363c196d9ab",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch08-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read, including proofs and solutions; no human/institutional review or formal proof certification.",
+        "Lecture-topic fidelity checked against chapters.json, the complete private chapter map, and 45-second official-caption samples at every linked heading. Complete L17–27 captions were not independently reread in this review.",
+        "No audio, blackboard/video images, browser rendering, responsive layout or accessibility inspection in this review.",
+        "The ch08 dated research attribution was checked against live primary abstracts, but the counterexample constructions and proofs were not independently reproduced.",
+        "The external general algebraic/Proj theorems were checked for their stated use and hypotheses; all external proofs were not reproduced."
+      ],
+      "record": "validation/reviews/ch08-local_functions.json"
+    },
+    {
+      "chapter": 9,
+      "author": "affine_projective",
+      "reviewer": "geometric_local",
+      "original_sha256": "e507224c8d6b1c042062e99a070540307ed84c8b14200e1bdaeb0eb30d07608e",
+      "final_sha256": "e507224c8d6b1c042062e99a070540307ed84c8b14200e1bdaeb0eb30d07608e",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch09-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+      ],
+      "record": "validation/reviews/ch09-geometric_local.json"
+    },
+    {
+      "chapter": 9,
+      "author": "affine_projective",
+      "reviewer": "local_functions",
+      "original_sha256": "4e38cceda6b514fbc1845c10f16a10745fa9fc169ae8bfc81e6f6ed9734536b5",
+      "final_sha256": "e507224c8d6b1c042062e99a070540307ed84c8b14200e1bdaeb0eb30d07608e",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch09-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read, including proofs and solutions; no human/institutional review or formal proof certification.",
+        "Lecture-topic fidelity checked against chapters.json, the complete private chapter map, and 45-second official-caption samples at every linked heading. Complete L17–27 captions were not independently reread in this review.",
+        "No audio, blackboard/video images, browser rendering, responsive layout or accessibility inspection in this review.",
+        "The ch08 dated research attribution was checked against live primary abstracts, but the counterexample constructions and proofs were not independently reproduced.",
+        "The external general algebraic/Proj theorems were checked for their stated use and hypotheses; all external proofs were not reproduced."
+      ],
+      "record": "validation/reviews/ch09-local_functions.json"
+    },
+    {
+      "chapter": 10,
+      "author": "affine_projective",
+      "reviewer": "geometric_local",
+      "original_sha256": "42638dcfa5a20dc1e1268f8d8f13c6dcc64d09e54b00ab158656bf019745649a",
+      "final_sha256": "42638dcfa5a20dc1e1268f8d8f13c6dcc64d09e54b00ab158656bf019745649a",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch10-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review. L24 captions begin at117.939s; 00:00 is an orientation locator."
+      ],
+      "record": "validation/reviews/ch10-geometric_local.json"
+    },
+    {
+      "chapter": 10,
+      "author": "affine_projective",
+      "reviewer": "local_functions",
+      "original_sha256": "eb27fa84a94c1f28159cc37006c27a5c69cc291374d951e714c53b1fbb45ed4e",
+      "final_sha256": "42638dcfa5a20dc1e1268f8d8f13c6dcc64d09e54b00ab158656bf019745649a",
+      "review_kind": "independent-full-science-editor",
+      "status": "accepted",
+      "report": "validation/reviews/ch10-local_functions.md",
+      "limitations": [
+        "Actual complete HTML manuscript read, including proofs and solutions; no human/institutional review or formal proof certification.",
+        "Lecture-topic fidelity checked against chapters.json, the complete private chapter map, and 45-second official-caption samples at every linked heading. Complete L17–27 captions were not independently reread in this review.",
+        "No audio, blackboard/video images, browser rendering, responsive layout or accessibility inspection in this review.",
+        "The ch08 dated research attribution was checked against live primary abstracts, but the counterexample constructions and proofs were not independently reproduced.",
+        "The external general algebraic/Proj theorems were checked for their stated use and hypotheses; all external proofs were not reproduced."
+      ],
+      "record": "validation/reviews/ch10-local_functions.json"
+    },
+    {
+      "chapter": 11,
+      "author": "local_functions",
+      "reviewer": "affine_projective",
+      "original_sha256": "5724db701742f8c15bf9f12d5e159d990fbfd5c3f91e48dfeb48ba999adefe89",
+      "final_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch11-affine_projective.md",
+      "limitations": [
+        "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+        "Source maps checked for lecture-topic concordance; not an exhaustive independent L28–42 caption reread.",
+        "No audio, video, or blackboard-frame inspection.",
+        "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+        "Browser rendering and exact source timestamps are separate checks."
+      ],
+      "record": "validation/reviews/ch11-affine_projective.json"
+    },
+    {
+      "chapter": 11,
+      "author": "local_functions",
+      "reviewer": "geometric_local",
+      "original_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+      "final_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch11-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review. L28 captions begin at126.13s; 00:00 is an orientation locator."
+      ],
+      "record": "validation/reviews/ch11-geometric_local.json"
+    },
+    {
+      "chapter": 12,
+      "author": "local_functions",
+      "reviewer": "affine_projective",
+      "original_sha256": "c564a45180494df30438c6228d2856400635cd54cd2be6b5d487fb0a1051d29e",
+      "final_sha256": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch12-affine_projective.md",
+      "limitations": [
+        "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+        "Source maps checked for lecture-topic concordance; not an exhaustive independent L28–42 caption reread.",
+        "No audio, video, or blackboard-frame inspection.",
+        "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+        "Browser rendering and exact source timestamps are separate checks."
+      ],
+      "record": "validation/reviews/ch12-affine_projective.json"
+    },
+    {
+      "chapter": 12,
+      "author": "local_functions",
+      "reviewer": "geometric_local",
+      "original_sha256": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+      "final_sha256": "a14838b7a7f309442f8d06a00e2c911fe3de149c3995be0a225524838acec8a4",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch12-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+      ],
+      "record": "validation/reviews/ch12-geometric_local.json"
+    },
+    {
+      "chapter": 13,
+      "author": "local_functions",
+      "reviewer": "affine_projective",
+      "original_sha256": "f4bbeb221a5e5fb8680f2f40833ec902f28929603633167d41aae1aafafd62d9",
+      "final_sha256": "b89b364c8b3ace7241b6afa8804bc8622c10cd7a48ec7ff2297c5b5c24bd4e59",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch13-affine_projective.md",
+      "limitations": [
+        "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+        "Source maps checked for lecture-topic concordance; not an exhaustive independent L28–42 caption reread.",
+        "No audio, video, or blackboard-frame inspection.",
+        "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+        "Browser rendering and exact source timestamps are separate checks."
+      ],
+      "record": "validation/reviews/ch13-affine_projective.json"
+    },
+    {
+      "chapter": 13,
+      "author": "local_functions",
+      "reviewer": "geometric_local",
+      "original_sha256": "b89b364c8b3ace7241b6afa8804bc8622c10cd7a48ec7ff2297c5b5c24bd4e59",
+      "final_sha256": "b89b364c8b3ace7241b6afa8804bc8622c10cd7a48ec7ff2297c5b5c24bd4e59",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch13-geometric_local.md",
+      "limitations": [
+        "Complete HTML and domain brief read. First, middle and last source anchors sampled against official captions; all caption text was not independently reread. No audio, board-visual, formal-proof, human or institutional review."
+      ],
+      "record": "validation/reviews/ch13-geometric_local.json"
+    },
+    {
+      "chapter": 14,
+      "author": "geometric_local",
+      "reviewer": "affine_projective",
+      "original_sha256": "9af4305f669abd19dad87f622354d57966563e35bb6f88d3181e5157229cdf6e",
+      "final_sha256": "7f285dedda721beef1e69bf08e186a719b1a076e426edde4990127ebbc0a6806",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch14-affine_projective.md",
+      "limitations": [
+        "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+        "Source maps checked for lecture-topic concordance; not an exhaustive independent L28–42 caption reread.",
+        "No audio, video, or blackboard-frame inspection.",
+        "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+        "Browser rendering and exact source timestamps are separate checks."
+      ],
+      "record": "validation/reviews/ch14-affine_projective.json"
+    },
+    {
+      "chapter": 14,
+      "author": "geometric_local",
+      "reviewer": "root",
+      "original_sha256": "f69cf55e83385d839e18f4d9057b01527c2616d30cadacded110ae832f51de8c",
+      "final_sha256": "7f285dedda721beef1e69bf08e186a719b1a076e426edde4990127ebbc0a6806",
+      "review_kind": "full science-editor review plus targeted repair confirmation",
+      "status": "accepted",
+      "report": "validation/reviews/ch14-root.md",
+      "limitations": "Full manuscript review, including worked solutions; source-topic concordance from available selected evidence only, not a second full caption read. No direct audio/video review, no formal proof assistant, and no reproduction of invoked general algebraic/analytic theorems.",
+      "record": "validation/reviews/ch14-root.json"
+    },
+    {
+      "chapter": 15,
+      "author": "geometric_local",
+      "reviewer": "affine_projective",
+      "original_sha256": "7a4c826880ae5226443b1864c9537966cd0551408c591794339a98b19d0b7dc7",
+      "final_sha256": "34b3f686afd5d7d78366a6417f696814dd64c07cb1faf528feba9a8e97992e7c",
+      "review_kind": "full_independent",
+      "status": "accepted",
+      "report": "validation/reviews/ch15-affine_projective.md",
+      "limitations": [
+        "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+        "Source maps checked for lecture-topic concordance; not an exhaustive independent L28–42 caption reread.",
+        "No audio, video, or blackboard-frame inspection.",
+        "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+        "Browser rendering and exact source timestamps are separate checks."
+      ],
+      "record": "validation/reviews/ch15-affine_projective.json"
+    },
+    {
+      "chapter": 15,
+      "author": "geometric_local",
+      "reviewer": "root",
+      "original_sha256": "1cade2aa66ccdf11e307f11b924990e66318912f5713eda60e5c807e836b21d1",
+      "final_sha256": "34b3f686afd5d7d78366a6417f696814dd64c07cb1faf528feba9a8e97992e7c",
+      "review_kind": "full science-editor review plus targeted repair confirmation",
+      "status": "accepted",
+      "report": "validation/reviews/ch15-root.md",
+      "limitations": "Full manuscript review, including worked solutions; source-topic concordance from available selected evidence only, not a second full caption read. No direct audio/video review, no formal proof assistant, and no reproduction of invoked general algebraic/analytic theorems.",
+      "record": "validation/reviews/ch15-root.json"
+    }
+  ],
+  "scope": "Actual agent editorial reports; no claim of human or formal-proof certification."
+}

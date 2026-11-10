@@ -1,0 +1,6 @@
+work/
+README.txt
+__pycache__/
+node_modules/
+*.bak
+*.log

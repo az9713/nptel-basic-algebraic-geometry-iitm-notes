@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "sampled_points_per_curve": 301,
+  "maximum_equation_residuals": {
+    "cusp": 3.552713678800501e-15,
+    "node": 4.440892098500626e-16
+  },
+  "scope": "real parametrized illustration; exact Jacobian checks in algebra_lab.py"
+}

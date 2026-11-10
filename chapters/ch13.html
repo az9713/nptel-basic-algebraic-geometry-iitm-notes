@@ -1,0 +1,104 @@
+<p class="lede">The projective line has many nonconstant rational functions, but no nonconstant scalar-valued function that is regular everywhere. Nevertheless, it embeds as a line in one projective space and as a conic in another. Those embeddings have different homogeneous coordinate rings. Projective geometry therefore requires both local functions and a careful distinction between the variety and its chosen embedding.</p>
+<p class="source-note">Lecture spine: official English captions of L33–34, read in sequence. The proof of constancy below develops the lecture's graded-ring mechanism through a finite-dimensional determinant argument. The Veronese construction and the conic example are treated explicitly, with original proofs of the closed image and of the nonisomorphism of the two coordinate rings. No complete visual or audio review is claimed.</p>
+
+<section id="constant"><h2>13.1 Global regular functions on a projective variety <a class="timestamp" href="https://www.youtube.com/watch?v=zn77pSkvi9s&amp;t=0s">L33 00:00</a></h2>
+<p>Over \(\mathbb C\), a global holomorphic function on a compact connected complex manifold is constant, by the maximum-modulus principle. That analytic theorem motivates the algebraic claim, but it is not its proof over an arbitrary algebraically closed field. Zariski quasi-compactness is also insufficient: the affine line is quasi-compact and has the nonconstant regular function \(t\). Projectivity is a stronger condition.</p>
+<div class="thm"><strong>Theorem 13.1.</strong> If \(X\) is a nonempty irreducible projective variety over the algebraically closed field \(k\), then \(\mathcal O_X(X)=k\), with \(k\) identified with the constant functions.</div>
+<p>The statement also appears as <a href="https://jrsijsling.eu/notes/AG-2022.pdf">Theorem 2.5.64 in Sijsling's course notes</a>. The following argument proves it here, including the possibility of empty standard charts, rather than invoking an analytic compactness theorem.</p>
+<div class="proof"><p>Let \(S=k[x_0,\ldots,x_n]/I(X)\) be its homogeneous coordinate domain. If \(x_i=0\) in \(S\), the corresponding chart is empty; discard that variable and regard \(X\) as lying in the smaller projective coordinate subspace. Repeating leaves a presentation in which each \(x_i\) is nonzero and each chart \(U_i=X\cap D_+(x_i)\) is nonempty. This removes a genuine edge case in the chart argument.</p>
+<p>Take \(f\in\mathcal O_X(X)\), viewed inside \(k(X)\) and hence inside \(\operatorname{Frac}S\). On each affine chart,
+\[
+f=\frac{g_i}{x_i^{n_i}},\qquad g_i\in S_{n_i},\quad n_i\ge0.
+\]
+All these fractions represent the same rational function, since the charts overlap. If any \(n_i=0\), the equality already identifies \(f\) with a scalar in \(S_0=k\), and density extends that equality to all of \(X\). We may therefore assume \(n_i\ge1\) for every \(i\).</p>
+<p>Put \(N=\sum_i n_i\). Every monomial of degree \(N\) is divisible by some \(x_i^{n_i}\): otherwise its exponent of each variable would be smaller than \(n_i\), making its total degree smaller than \(N\). Multiplication by \(f\) therefore sends that monomial into \(S_N\), using the displayed chart expression for that \(i\). Since those monomials span the finite-dimensional vector space \(S_N\), multiplication by \(f\) defines a \(k\)-linear endomorphism \(T:S_N\to S_N\). The space is nonzero, since \(x_i^N\ne0\) in the domain \(S\).</p>
+<p>The characteristic polynomial \(P(z)=\det(zI-T)\in k[z]\) is monic. By the Cayley–Hamilton identity, \(P(T)=0\). Choose \(0\ne s\in S_N\); acting on it yields \(P(f)s=0\) inside \(\operatorname{Frac}S\). This is a field, so \(P(f)=0\). Thus \(f\) is algebraic over \(k\). Factor \(P(z)\) into linear factors over the algebraically closed field. Their product vanishes at \(f\) in a field, so one factor vanishes: \(f=c\) for some \(c\in k\). <span class="qed">∎</span></p></div>
+<p>The decisive step is the finite-dimensional graded piece preserved by multiplication, not quasi-compactness alone. It is a finite-dimensional form of the determinant argument used to establish integrality of an element acting on a finite module. The source lecture proceeds through that module-theoretic formulation. The argument here keeps the same mechanism while making the scalar polynomial relation explicit.</p>
+<p>The hypotheses bind. A disconnected reduced projective algebraic set can have functions taking different constants on its disjoint connected components. A projective scheme with nilpotents can have additional nonreduced global functions. Over a field that is not algebraically closed, constants may form a finite algebraic field extension. None of those objects is the irreducible reduced variety over \(k\) used in this theorem.</p>
+</section>
+
+<section id="line"><h2>13.2 The projective line makes the obstruction visible</h2>
+<p>Cover \(\mathbb P^1\) by the charts with coordinates \(t=x_1/x_0\) and \(s=x_0/x_1\). A global regular function restricts to a polynomial \(a(t)\) on the first chart and a polynomial \(b(s)\) on the second. On the overlap they satisfy \(a(t)=b(1/t)\) in \(k[t,t^{-1}]\). A Laurent polynomial lying in both \(k[t]\) and \(k[t^{-1}]\) can have only its degree-zero term. Hence both polynomials are the same constant.</p>
+<p>A nonconstant polynomial in \(t\) has a pole at infinity when regarded as a rational function on \(\mathbb P^1\). For example, \(t^2+1=s^{-2}+1\), whose negative power cannot be represented by a germ regular at \(s=0\). A general rational function may avoid that pole only by acquiring poles elsewhere. The theorem says all poles disappear simultaneously only for a constant.</p>
+<p>Consequently, every morphism \(X\to\mathbb A^m\) from an irreducible projective variety is constant: each of its coordinate functions is a global regular function and hence a scalar. This does not forbid nonconstant morphisms \(X\to\mathbb P^m\). Projective coordinates are homogeneous data whose ratios are regular on different charts; the individual homogeneous coordinates are not global scalar-valued functions.</p>
+<p>It also explains why \(\mathcal O(X)\) alone cannot reconstruct a projective variety. Both \(\mathbb P^1\) and \(\mathbb P^2\) have global regular ring \(k\), although their dimensions differ. The sheaf of functions on all opens, the local rings, and the geometric gluing remain essential.</p>
+</section>
+
+<section id="veronese"><h2>13.3 The degree-\(d\) Veronese map <a class="timestamp" href="https://www.youtube.com/watch?v=zpKPp5ozAU0&amp;t=300s">L34 05:00</a></h2>
+<p>Fix an integer \(d\ge1\). Let \(\alpha=(\alpha_0,\ldots,\alpha_n)\) range over tuples of nonnegative integers with \(\sum_i\alpha_i=d\), and write \(x^\alpha=\prod_i x_i^{\alpha_i}\). These are all degree-\(d\) monomials. Their number is \(\binom{n+d}{d}\): distribute \(d\) identical units among \(n+1\) positions, or encode the distribution by \(d\) marks separated by \(n\) dividers.</p>
+<div class="def"><strong>Definition 13.2.</strong> With \(N=\binom{n+d}{d}-1\), the <dfn>Veronese map</dfn>, also called the <dfn>\(d\)-uple embedding</dfn>, is
+\[
+\nu_d:\mathbb P^n\longrightarrow\mathbb P^N,\qquad
+[x_0:\cdots:x_n]\longmapsto [x^\alpha]_{|\alpha|=d}.
+\]</div>
+<p>Rescaling the input multiplies every output coordinate by the same factor \(\lambda^d\), so the output projective point is well-defined. At least one \(x_i\ne0\), and then the coordinate \(x_i^d\) is nonzero, so the map never produces the forbidden all-zero vector. On the chart with that coordinate nonzero, each coordinate ratio is a polynomial in \(x_j/x_i\). Hence the map is a morphism.</p>
+<p>The monomials containing \(x_i^{d-1}x_j\) recover the input chart coordinates:
+\[
+\frac{x_i^{d-1}x_j}{x_i^d}=\frac{x_j}{x_i}.
+\]
+Thus no extraction of \(d\)-th roots is required to invert the map locally. This observation proves injectivity and gives an inverse morphism on the image; merely recovering the pure powers \(x_i^d\) would leave an avoidable ambiguity.</p>
+</section>
+
+<section id="closed"><h2>13.4 Why the image is closed <a class="timestamp" href="https://www.youtube.com/watch?v=zpKPp5ozAU0&amp;t=600s">L34 10:00</a></h2>
+<p>Use homogeneous coordinates \(z_\alpha\) on the target indexed by the degree-\(d\) monomials. Substitution defines a \(k\)-algebra homomorphism
+\[
+\Phi:k[z_\alpha]\longrightarrow k[x_0,\ldots,x_n],
+\qquad z_\alpha\longmapsto x^\alpha.
+\]
+It multiplies degrees by \(d\). Its kernel \(J\) is homogeneous: distinct-degree components map to distinct degrees, so if their sum maps to zero each component does. Its kernel is prime because its image is a subring of a domain. Every image point of \(\nu_d\) belongs to the projective zero locus \(V_+(J)\).</p>
+<p>We prove the reverse inclusion explicitly. Let \(e_i\) be the tuple with a single 1 in position \(i\), and put \(q_i=z_{de_i}\). The relations
+\[
+z_\alpha^d-\prod_i q_i^{\alpha_i}\in J
+\]
+show that a nonzero projective point of \(V_+(J)\) has some \(q_i\ne0\): otherwise every \(z_\alpha^d\), and hence every \(z_\alpha\), would be zero. Fix such an \(i\), and set
+\[
+u_j=\frac{z_{(d-1)e_i+e_j}}{q_i}\quad(j\ne i),\qquad u_i=1.
+\]
+Another relation in the kernel is
+\[
+z_\alpha q_i^{\,d-1}
+-\prod_j z_{(d-1)e_i+e_j}^{\alpha_j}\in J.
+\]
+Both terms substitute to the same monomial in the \(x_j\). Dividing the equality at our point by \(q_i^d\) gives \(z_\alpha/q_i=\prod_j u_j^{\alpha_j}\). These are exactly the coordinates of \(\nu_d([u_0:\cdots:u_n])\), normalized by its \(i\)-th pure-power coordinate.</p>
+<p>Therefore the image equals the closed projective variety \(V_+(J)\). The formulas for the \(u_j\) are regular on its chart \(q_i\ne0\), and these charts cover it. They give inverse morphisms to \(\nu_d\) on a cover, so \(\nu_d\) is an isomorphism onto that closed image. This is what an <dfn>embedding</dfn> means here: a morphism that identifies the source with a closed subvariety, including its regular functions.</p>
+<p><a href="https://virtualmath1.stanford.edu/~vakil/0708-216/216class43.pdf">Vakil's Class 43 notes, Exercise 1.D on page 6</a>, ask for the Veronese embedding through a general closed-immersion criterion. The monomial relations above give a direct proof in the classical setting and show why checking pointwise injectivity alone would have been insufficient.</p>
+<p>The image ring of \(\Phi\) is the <dfn>Veronese subring</dfn>
+\[
+k[x_0,\ldots,x_n]^{(d)}
+=\bigoplus_{r\ge0} k[x_0,\ldots,x_n]_{rd},
+\]
+where the old degree \(rd\) is assigned new degree \(r\). Degree-\(d\) monomials generate this subring: any monomial of degree \(rd\) can be grouped into \(r\) factors of degree \(d\). The homogeneous coordinate ring of the embedded image is this subring. Equality with the full homogeneous vanishing ideal follows degree by degree: a homogeneous polynomial in the \(z_\alpha\) vanishes on every image point exactly when its substituted polynomial vanishes at every nonzero vector \(x\), and hence is zero over the infinite field \(k\). Since both ideals are homogeneous, checking their homogeneous elements establishes equality.</p>
+</section>
+
+<section id="conic"><h2>13.5 One projective line, two nonisomorphic coordinate rings <a class="timestamp" href="https://www.youtube.com/watch?v=zpKPp5ozAU0&amp;t=1200s">L34 20:00</a></h2>
+<p>For \(n=1,d=2\), the map is
+\[
+[s:t]\longmapsto [s^2:st:t^2],
+\]
+and its image is the conic \(C=V_+(z_1^2-z_0z_2)\subseteq\mathbb P^2\). On \(z_0\ne0\), the inverse coordinate is \(u=z_1/z_0=t/s\), and \(z_2/z_0=u^2\). This is the affine parabola. On \(z_2\ne0\), the inverse is \(v=z_1/z_2=s/t\). These two charts cover the conic: if both \(z_0,z_2\) vanished, its equation would force \(z_1=0\).</p>
+<p>The kernel of substitution is exactly \((z_1^2-z_0z_2)\). To see this without a dimension guess, divide any polynomial by the monic polynomial in \(z_1\), leaving
+\[
+A(z_0,z_2)+z_1B(z_0,z_2).
+\]
+After substitution it becomes \(A(s^2,t^2)+st\,B(s^2,t^2)\). The monomials in the first term have even exponents of both \(s,t\); those in the second have odd exponents of both. Different exponent pairs cannot cancel, so a zero substituted polynomial forces \(A=B=0\). This proves the kernel assertion in every characteristic.</p>
+<p>Thus \(\mathbb P^1\cong C\), but their homogeneous coordinate rings are
+\[
+R=k[s,t],\qquad
+B=k[z_0,z_1,z_2]/(z_1^2-z_0z_2).
+\]
+They are not isomorphic as graded \(k\)-algebras: their degree-one pieces have dimensions two and three. More strongly, they are not isomorphic even as ungraded \(k\)-algebras. Here is a local invariant proving that stronger claim.</p>
+<p>In \(B\), the maximal ideal \(\mathfrak n=(z_0,z_1,z_2)\) at the vertex of the affine cone has \(\dim_k\mathfrak n/\mathfrak n^2=3\). The defining equation is quadratic, so there is no nonzero linear relation among these three classes. In \(R\), every maximal ideal is \((s-a,t-b)\), and its quotient by its square has dimension two, with basis the classes of \(s-a,t-b\). A \(k\)-algebra isomorphism would send \(\mathfrak n\) to a maximal ideal and induce an isomorphism of these quotients, which is impossible. The cone rings differ even though their projective varieties agree.</p>
+<p>Embedding data are therefore real extra information. The sheaf of regular functions, local rings, and function field are intrinsic; the homogeneous coordinate ring retains a chosen projective embedding and its grading. Later line bundles and linear systems organize that extra data. Their use does not mean that projective varieties lack intrinsic geometry; it means one global function ring is insufficient to encode it.</p>
+</section>
+
+<section id="exercises"><h2>13.6 Exercises and complete solutions</h2>
+<ol><li>Show directly that a global regular function on \(\mathbb P^1\) is constant by comparing its two affine charts.</li><li>Write the cubic Veronese map of \(\mathbb P^1\), give two equations satisfied by its image, and recover its affine parameter from coordinate ratios.</li><li>For the quadratic conic above, write an inverse on the chart \(z_1\ne0\), as well as on the two pure-power charts.</li><li>Explain why the affine cone of the conic can be singular even though the conic is isomorphic to \(\mathbb P^1\).</li><li>Why does Theorem 13.1 not imply that every morphism \(\mathbb P^1\to\mathbb P^1\) is constant?</li></ol>
+<details><summary>Worked solutions</summary>
+<p><strong>1.</strong> On the \(t\)-chart write the function as \(a(t)=\sum_{j=0}^r a_jt^j\). On the \(s\)-chart write it as \(b(s)\), with \(s=1/t\). Their common expression on the overlap is simultaneously a polynomial with only nonnegative powers of \(t\) and one with only nonpositive powers. Independence of Laurent monomials forces every coefficient except degree zero to vanish. The same constant then holds at the omitted point of either chart.</p>
+<p><strong>2.</strong> The map is \([s:t]\mapsto[s^3:s^2t:st^2:t^3]\). With target coordinates \(w_0,\ldots,w_3\), the relations \(w_1^2=w_0w_2\) and \(w_1w_2=w_0w_3\) hold by multiplication of monomials. These two equations are examples, not a claim that they generate the full image ideal. On \(w_0\ne0\), \(t/s=w_1/w_0\), and the point becomes \([1:u:u^2:u^3]\). On \(w_3\ne0\), recover \(s/t=w_2/w_3\).</p>
+<p><strong>3.</strong> On \(z_1\ne0\), the conic equation implies both \(z_0\ne0\) and \(z_2\ne0\). The inverse can be written \([s:t]=[z_0:z_1]\), since \([s^2:st]=[s:t]\) when \(s\ne0\). Equally, \([z_1:z_2]\) gives the same point because \(z_1^2=z_0z_2\). These formulas agree with \(t/s=z_1/z_0\) and \(s/t=z_1/z_2\) on the pure-power charts.</p>
+<p><strong>4.</strong> The affine cone includes the all-zero vector, which is absent from projective space. At that vertex its local cotangent space has dimension three, while the cone has dimension two; Chapter 15's criterion detects the singularity. The projective conic uses only nonzero cone vectors modulo scaling, so that vertex contributes no projective point. Local affine charts of the conic are lines, with one-dimensional cotangent spaces.</p>
+<p><strong>5.</strong> The theorem concerns morphisms to the affine line, equivalently scalar-valued global regular functions. A morphism to projective space is specified by compatible chart ratios or suitable homogeneous coordinates. The identity \([s:t]\mapsto[s:t]\) is nonconstant. Its coordinates \(s,t\) are not individual scalar-valued global functions on \(\mathbb P^1\); their ratio is defined only on a chart.</p>
+</details>
+<p class="source-note">Boundary: projectivity forces constancy of global regular scalar functions, not of rational functions or projective-valued morphisms. The homogeneous coordinate ring is attached to an embedding; changing the embedding can change the ring even when the variety itself is unchanged.</p>
+</section>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Independent lecture notes for NPTEL Basic Algebraic Geometry, IIT Madras.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; object-src 'none'; base-uri 'none'">
+<title>Projective space and affine gluing — Basic Algebraic Geometry</title><link rel="stylesheet" href="assets/book.css">
+<script defer src="assets/math-config.js"></script><script defer src="assets/mathjax-tex-svg.js"></script><script defer src="assets/book.js"></script><script defer src="assets/curves.js"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a href="index.html">BASIC ALGEBRAIC GEOMETRY</a><div class="toolbar-controls"><button data-action="theme" type="button">Theme</button> <button data-action="print" type="button">Print / PDF</button></div></header>
+<div class="layout"><aside><nav aria-label="Course contents"><details open><summary>Chapters and resources</summary><ol><li><a  href="chapter-01.html">Equations, topology, and the vanishing dictionary</a></li><li><a  href="chapter-02.html">Irreducibility and prime ideals</a></li><li><a  href="chapter-03.html">Noetherian spaces and irreducible components</a></li><li><a  href="chapter-04.html">Dimension, coordinate rings, and hypersurfaces</a></li><li><a  href="chapter-05.html">Recovering affine geometry from its ring</a></li><li><a  href="chapter-06.html">Basic open sets and localization</a></li><li><a  href="chapter-07.html">Quasi-compactness and regular functions</a></li><li><a  href="chapter-08.html">Affine morphisms, duality, and automorphisms</a></li><li><a aria-current=page href="chapter-09.html">Projective space and affine gluing</a></li><li><a  href="chapter-10.html">Homogeneous geometry and degree-zero localization</a></li><li><a  href="chapter-11.html">Germs and local rings</a></li><li><a  href="chapter-12.html">Rational functions and function fields</a></li><li><a  href="chapter-13.html">Projective functions and Veronese embeddings</a></li><li><a  href="chapter-14.html">Local isomorphisms and birational geometry</a></li><li><a  href="chapter-15.html">Tangent spaces, nonsingularity, and smooth open sets</a></li></ol><p><a href="study-guide.html">Study guide</a><br><a href="source-map.html">42 recordings and coverage</a><br><a href="laboratory.html">Algebra laboratory</a><br><a href="figures.html">Explore curves and tangents</a><br><a href="references.html">Sources and attribution</a><br><a href="about.html">Verification and limitations</a></p></details></nav></aside>
+<main id="main"><p class="eyebrow">Chapter 9 · Lectures 22–23</p><h1>Projective space and affine gluing</h1><nav class="toc" aria-label="Chapter sections"><ul><li><a href="#points">9.1 Points as lines and homogeneous coordinates  L22 10:00</a></li><li><a href="#homogeneous">9.2 Vanishing survives rescaling  L22 20:00</a></li><li><a href="#charts">9.3 The \(n+1\) affine charts  L23 20:00</a></li><li><a href="#topologies">9.4 Quotient, equations, and gluing give one topology  L23 35:00</a></li><li><a href="#separated">9.5 Why this gluing is separated</a></li><li><a href="#exercises">9.6 Exercises and complete solutions</a></li></ul></nav><p class="lede">A line of slope \(m\) through the origin is described by \([1:m]\). The vertical line has no finite slope, yet it belongs to the same family. Projective space treats all directions uniformly by identifying nonzero vectors that differ by a common scalar. Its affine charts then recover ordinary coordinates without discarding the exceptional directions.</p>
+<p class="source-note">Lecture spine: L22–23, including the gluing motivation, descriptions of projective points, three descriptions of the Zariski topology, affine charts, and the homogeneity test. The separatedness discussion is an explicit teaching extension that clarifies the topology distinction raised earlier in the course.</p>
+
+<section id="points"><h2>9.1 Points as lines and homogeneous coordinates <a class="timestamp" href="https://www.youtube.com/watch?v=VvIgEAyqsWA&amp;t=600s">L22 10:00</a></h2>
+<div class="def"><strong>Definition 9.1.</strong> The <dfn>projective space</dfn> \(\mathbb P_k^n\) is the set of one-dimensional linear subspaces of \(k^{n+1}\). Equivalently,
+\[
+\mathbb P^n=(k^{n+1}\setminus\{0\})/\sim,\qquad
+(a_0,\ldots,a_n)\sim(\lambda a_0,\ldots,\lambda a_n),\quad \lambda\in k^\times.
+\]
+The equivalence class is written \([a_0:\cdots:a_n]\); these are its <dfn>homogeneous coordinates</dfn>.</div>
+<p>The origin is excluded because it defines no line. The same scalar must multiply every coordinate; independently rescaling different coordinates generally changes the point. Some coordinates may be zero, but not all. Over a field of characteristic zero, for instance, \([1:2:0]=[3:6:0]\), whereas \([1:2:0]\ne[1:3:0]\). In arbitrary characteristic the general rule is \([a]=[\lambda a]\) for \(\lambda\in k^\times\); a scalar that becomes zero in the field is not permitted.</p>
+<p>The projection \(\pi:\mathbb A^{n+1}\setminus\{0\}\to\mathbb P^n\) sends a nonzero vector to its line. Its fiber over a point is the corresponding line with the origin removed, not the whole line. This distinction matters when interpreting the projection as a geometric family: the punctured affine space has fibers \(k^\times\), while a line bundle also retains a zero vector in each fiber.</p>
+<p>For the projective line, points with first coordinate nonzero have the unique representative \([1:t]\), where \(t=a_1/a_0\). The one remaining point is \([0:1]\), customarily denoted \(\infty\) for that chosen chart. Thus \(\mathbb P^1=\mathbb A^1\cup\{\infty\}\) as a set. The point at infinity depends on the chosen affine chart; it is not an intrinsically distinguished point of the projective line.</p>
+<p>Over \(\mathbb C\), the usual analytic topology makes \(\mathbb P^1(\mathbb C)\) the Riemann sphere, the one-point compactification of \(\mathbb C\). In these notes the default topology is Zariski. These are different topologies on the same set: the analytic sphere is Hausdorff, whereas the Zariski projective line has the cofinite topology. Its charts still behave algebraically like affine lines.</p>
+</section>
+
+<section id="homogeneous"><h2>9.2 Vanishing survives rescaling <a class="timestamp" href="https://www.youtube.com/watch?v=VvIgEAyqsWA&amp;t=1200s">L22 20:00</a></h2>
+<p>A polynomial \(F(X_0,\ldots,X_n)\) is <dfn>homogeneous of degree \(d\)</dfn> if all of its nonzero monomials have total degree \(d\). It satisfies \(F(\lambda a)=\lambda^dF(a)\). Consequently the statement \(F(a)=0\) is independent of the nonzero representative chosen for \([a]\). Its numerical value usually is not independent of that representative.</p>
+<div class="def"><strong>Definition 9.2.</strong> For homogeneous polynomials \(F_\alpha\), their <dfn>projective zero locus</dfn> is
+\[
+V_+(F_\alpha)=\{[a]\in\mathbb P^n:F_\alpha(a)=0\text{ for every }\alpha\}.
+\]
+These projective algebraic sets are declared closed in the <dfn>Zariski topology</dfn> of \(\mathbb P^n\).</div>
+<p>The same identities as in affine space verify the topology axioms. Arbitrary intersections impose all equations at once. For two zero loci, products of homogeneous equations describe their union; the products remain homogeneous. The zero polynomial defines the whole space and the constant polynomial 1 defines the empty set.</p>
+<p>The equation \(X_1-X_0=0\) makes sense on the projective line and picks out \([1:1]\). The expression \(X_1-1=0\) does not: the vector \((1,1)\) satisfies it, while \((\lambda,\lambda)\), representing the same projective point, does not when \(\lambda\in k^\times\) and \(\lambda\ne1\). Such a scalar exists because \(k\) is infinite; the expression at that representative is \(\lambda-1\ne0\). In an affine chart one can set \(X_0=1\); the chart equation \(t-1=0\) then corresponds to the homogeneous equation \(X_1-X_0=0\). Homogenization records the coordinate that was normalized away.</p>
+<div class="prop"><strong>Proposition 9.3.</strong> If a polynomial vanishes on a line through the origin, then each of its homogeneous components vanishes on that line.</div>
+<div class="proof"><p>Write \(F=\sum_{d=0}^D F_d\), grouping monomials by degree. If \(a\ne0\) lies on the line and \(F(\lambda a)=0\) for every \(\lambda\in k^\times\), then \(\sum_d\lambda^d F_d(a)=0\) for all such \(\lambda\). The field \(k\) is infinite. A one-variable polynomial with infinitely many roots is zero, so every coefficient \(F_d(a)\) vanishes. Homogeneity then gives vanishing at every nonzero point of the line, and the constant component also vanishes. <span class="qed">∎</span></p></div>
+<p>This is the reason homogeneous ideals appear in projective geometry. An ordinary ideal can mix degrees; an ideal encoding a union of lines must retain the separate degree pieces of every vanishing polynomial. Chapter 10 formalizes that condition.</p>
+</section>
+
+<section id="charts"><h2>9.3 The \(n+1\) affine charts <a class="timestamp" href="https://www.youtube.com/watch?v=AfQRHoPr2Fs&amp;t=1200s">L23 20:00</a></h2>
+<p>For each \(i=0,\ldots,n\), let \(U_i=\{[a]:a_i\ne0\}\). Its complement is the closed zero locus \(V_+(X_i)\), so \(U_i\) is open. The \(U_i\) cover projective space because at least one coordinate is nonzero. Define
+\[
+\phi_i:U_i\longrightarrow\mathbb A^n,\qquad
+[a_0:\cdots:a_n]\longmapsto(a_0/a_i,\ldots,\widehat{a_i/a_i},\ldots,a_n/a_i).
+\]
+The hat means omission of that entry. The inverse inserts a 1 in position \(i\), leaving the other coordinates in order.</p>
+<div class="prop"><strong>Proposition 9.4.</strong> Each \(\phi_i\) is a homeomorphism for the Zariski topologies. The chart maps and their inverses are algebraic isomorphisms once regular functions on projective charts are defined as in Chapter 10.</div>
+<div class="proof"><p>A projective equation \(F=0\) restricts on \(U_i\) to the affine equation obtained by setting \(X_i=1\). Hence \(\phi_i\) carries relatively closed projective zero loci to affine closed sets. Conversely, for an affine polynomial \(g\) of total degree \(d\), the expression
+\[
+g^{\mathrm h}=X_i^d\,g(X_0/X_i,\ldots,\widehat{X_i/X_i},\ldots,X_n/X_i)
+\]
+is a homogeneous polynomial. Its zero locus on \(U_i\) corresponds exactly to \(g=0\). Applying this to a list of equations proves that the inverse map also preserves closed sets. For algebraic functions, the coordinates \(X_j/X_i\) are ratios of equal-degree homogeneous polynomials. Conversely, substituting \(X_i=1\) into any such ratio produces a regular affine fraction on the corresponding open. These formulas give regular pullbacks in both directions. <span class="qed">∎</span></p></div>
+<p>The overlap maps are explicit. On \(U_i\), write \(u_j=X_j/X_i\) for \(j\ne i\), and put \(u_i=1\) as a notation convention. On \(U_i\cap U_\ell\), one has \(u_\ell\ne0\); the \(U_\ell\) coordinates are
+\[
+v_j=\frac{u_j}{u_\ell}\quad(j\ne\ell).
+\]
+In particular \(v_i=1/u_\ell\). These are regular on the overlap and have regular inverses. On a triple overlap, the formulas compose correctly because \((X_j/X_i)/(X_\ell/X_i)=X_j/X_\ell\). Thus the charts glue compatibly.</p>
+<p>On \(\mathbb P^1\), the two coordinates are \(t=X_1/X_0\) and \(s=X_0/X_1\). Their overlap is the punctured line, with transition \(s=1/t\). The second origin \(s=0\) is the point \([0:1]\) missing from the first chart. One cannot get the projective line by keeping two disjoint affine lines; identifying their punctured parts by this transition is the essential operation.</p>
+<p>The same coordinate cover over general base rings appears in <a href="https://stacks.math.columbia.edu/tag/01ND">Stacks, Section 27.13, “Projective space”</a>. The explicit ratios above prove the classical field case needed here and show the transition formulas that the abstract construction packages.</p>
+</section>
+
+<section id="topologies"><h2>9.4 Quotient, equations, and gluing give one topology <a class="timestamp" href="https://www.youtube.com/watch?v=AfQRHoPr2Fs&amp;t=2100s">L23 35:00</a></h2>
+<p>The <dfn>quotient topology</dfn> for \(\pi\) declares \(W\subseteq\mathbb P^n\) open exactly when \(\pi^{-1}W\) is open in the punctured affine space. The chart topology declares \(W\) open exactly when every \(\phi_i(W\cap U_i)\) is affine open. The equation topology was defined by projective zero loci. These descriptions agree.</p>
+<p>The preceding proof identifies the equation topology on each \(U_i\) with the affine topology. The cover is open, so this already identifies the equation and gluing topologies. To compare with the quotient, restrict \(\pi\) above \(U_i\). There is an explicit affine isomorphism
+\[
+D(X_i)\ \cong\ \mathbb A^n\times\mathbb G_m,
+\qquad
+a\longmapsto\bigl(\phi_i([a]),a_i\bigr),
+\]
+where \(\mathbb G_m=\mathbb A^1\setminus\{0\}\), and the inverse multiplies the normalized tuple by the final scalar. Under it, \(\pi\) is the projection onto \(\mathbb A^n\). Its section inserts scalar 1. Hence if an inverse image under \(\pi\) is open, its pullback under that section is open in each affine chart; conversely the chart formulas make \(\pi\) continuous. This proves equality with the quotient topology.</p>
+<p>Projective space is Noetherian because it has a finite cover by Noetherian affine charts: a descending chain of closed subsets restricts to a stabilizing chain on each chart, and finitely many stabilization indices have a maximum. The same argument gives the usual Noetherian decomposition of every projective algebraic set.</p>
+<p>It is also irreducible. The chart \(U_0\) is irreducible and meets every other chart in a nonempty open subset, dense in that chart. Therefore its closure is all of \(\mathbb P^n\), and the closure of an irreducible subset is irreducible. A nonempty affine chart has dimension \(n\); the algebraic dimension conclusions are developed using its coordinate ring, not an assumption that every dense subset of every space has equal dimension.</p>
+</section>
+
+<section id="separated"><h2>9.5 Why this gluing is separated</h2>
+<p>There is a useful algebraic substitute for Hausdorff separation. A variety is <dfn>separated over \(k\)</dfn> when its diagonal \(\Delta_X=\{(p,p):p\in X\}\) is closed in the algebraic product \(X\times_kX\). The algebraic product has its own Zariski topology; it is not defined merely as the product of the two underlying topological spaces. The general formulation uses a closed diagonal immersion; see <a href="https://stacks.math.columbia.edu/tag/01KH">Stacks, Section 26.21, “Separation axioms”</a>.</p>
+<p>For projective space the diagonal is given by
+\[
+X_iY_j-X_jY_i=0\qquad(0\le i,j\le n).
+\]
+These equations are homogeneous separately in each coordinate tuple. On affine product charts they are polynomial equations, so define a closed subset. Two nonzero tuples satisfying them are proportional: choose \(i\) with \(X_i\ne0\); some \(Y_i\) must then be nonzero, and the equations give \(Y_j=(Y_i/X_i)X_j\) for every \(j\). Thus the equations cut out exactly the diagonal. This is separatedness despite the underlying Zariski space being non-Hausdorff.</p>
+<p>Gluing arbitrary affine charts does not guarantee it. If two affine lines are glued along their punctured lines by the identity, the result has two different origins. Pairs of corresponding nonzero points lie on its diagonal, but their limiting pair of distinct origins does not. More algebraically, a map from \(\mathbb A^1\) into the product, using the two respective chart inclusions, has inverse image of the diagonal equal to the punctured line, which is not closed. This “line with doubled origin” is outside the separated class of varieties used here. Compatibility of functions on overlaps and separatedness are distinct requirements.</p>
+</section>
+
+<section id="exercises"><h2>9.6 Exercises and complete solutions</h2>
+<ol><li>Express \([2:3:4]\in\mathbb P^2\) in every standard affine chart that contains it. Work over a field of characteristic zero.</li><li>Find the points at infinity of the projective closure \(YZ=X^2\) of the parabola \(y=x^2\), using the affine chart \(Z=1\).</li><li>Check the three-chart transition formula on \(U_0\cap U_1\cap U_2\subseteq\mathbb P^2\).</li><li>Why does a homogeneous polynomial generally fail to define a scalar-valued function on projective space? Give the condition that repairs a quotient.</li></ol>
+<details><summary>Worked solutions</summary>
+<p><strong>1.</strong> In \(U_0\), divide by 2 to obtain \([1:3/2:2]\), so the affine coordinates are \((3/2,2)\). In \(U_1\), divide by 3 to obtain \([2/3:1:4/3]\), giving \((2/3,4/3)\). In \(U_2\), divide by 4 to obtain \([1/2:3/4:1]\), giving \((1/2,3/4)\). These are three descriptions of one point, not three different points.</p>
+<p><strong>2.</strong> At infinity \(Z=0\), the equation forces \(X^2=0\), hence \(X=0\). A projective tuple cannot have all coordinates zero, so \(Y\ne0\), and rescaling gives the unique point \([0:1:0]\). The projective completion adds this point to the affine parabola; it is not obtained by adding a separate point for every Euclidean direction of an arbitrary drawing.</p>
+<p><strong>3.</strong> In \(U_0\), put \(u=X_1/X_0\), \(v=X_2/X_0\), both nonzero on the triple overlap. In \(U_1\), the coordinates are \((1/u,v/u)\). Passing to \(U_2\) gives \(((1/u)/(v/u),1/(v/u))=(1/v,u/v)\). This equals the direct \(U_0\)-to-\(U_2\) transition. The cancellation verifies the cocycle condition needed for gluing.</p>
+<p><strong>4.</strong> If \(F\) has degree \(d\), replacing \(a\) by \(\lambda a\) multiplies its value by \(\lambda^d\). Thus vanishing is intrinsic but the numerical value generally is not. A quotient \(F/G\) of homogeneous polynomials of the same degree is invariant under rescaling because the factors cancel. It defines a function only where \(G\ne0\). This is exactly the local prototype of projective regular functions.</p>
+</details>
+<p class="source-note">Boundary: the Riemann-sphere comparison concerns the complex analytic topology, while the chapter's proofs concern the Zariski topology. The projection fiber is a punctured line. Equal-degree quotients and the transition maps specify the algebraic structure that a topological gluing alone does not determine.</p>
+</section>
+<nav class="pager" aria-label="Chapter navigation"><a href="chapter-08.html">Previous chapter</a><a href="chapter-10.html">Next chapter</a></nav><footer>Independent study edition · NPTEL / IIT Madras lecture spine · Original exposition and exercises. No institutional endorsement.</footer></main></div></body></html>

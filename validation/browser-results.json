@@ -1,0 +1,246 @@
+{
+  "status": "passed",
+  "pages": [
+    {
+      "page": "about.html",
+      "math_spans": 0,
+      "content_sha256_lf": "7dfa6a0db62183908102da9c0ccae3454821b3866744ba7d9b3a8c2d99df85f2",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-01.html",
+      "math_spans": 180,
+      "content_sha256_lf": "6c4c3f778c9df926aeb60dbe99717c5c396aea06fc7aa628c9749c1dc2158f07",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-02.html",
+      "math_spans": 117,
+      "content_sha256_lf": "85fe2b112112152e169f6e600380824e3118c2ea1d7dc0b63f1035c20ad5e05b",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-03.html",
+      "math_spans": 82,
+      "content_sha256_lf": "81b49669759d2486a1711d663922b98198dc3d54a1ef92798888794960bf8e41",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-04.html",
+      "math_spans": 83,
+      "content_sha256_lf": "c1388991d84c36a1f4bff130e05bd9afcd2b8fbd0ab216dc9b854f85f5b390be",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-05.html",
+      "math_spans": 105,
+      "content_sha256_lf": "f626666df3ae66689a1769a80fcb71f65fd137c20e8a1c3f718784cbadbd1e01",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-06.html",
+      "math_spans": 119,
+      "content_sha256_lf": "aa17a83c0053796fac553abb19d4c0b829c12bb085d61cf387ae91ae9dc1e714",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-07.html",
+      "math_spans": 97,
+      "content_sha256_lf": "fa6203405ab6de82296f14039f46844e34aec3db270fb185e7cf9082e7eea063",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-08.html",
+      "math_spans": 146,
+      "content_sha256_lf": "a8a5332e027c26f9f13059c952eada0075ed2fd91a49b53c564019df5a5598b6",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-09.html",
+      "math_spans": 148,
+      "content_sha256_lf": "456af33d85eb1d6b1e3c8963e7602f1305372aa2872c5888bdc03c0768b6a3c4",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-10.html",
+      "math_spans": 226,
+      "content_sha256_lf": "246ae7fd08b455013f60f302479d3378e89233b08832c6fdc8cd0e3ee7cf3529",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-11.html",
+      "math_spans": 224,
+      "content_sha256_lf": "cb1f659f36d7e0efa4d029c406411fefaaf882934c8115746ddd3a683d175753",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-12.html",
+      "math_spans": 185,
+      "content_sha256_lf": "9d276dc5f2259af5f362db135c5faed3d48216c2d4e74e8e5687d5519cdd7fb3",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-13.html",
+      "math_spans": 192,
+      "content_sha256_lf": "5c4e91035f965422a8bb524bc54c7a0a47b7cb56f40dc0ddfe0bd20bd4357b3d",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-14.html",
+      "math_spans": 224,
+      "content_sha256_lf": "c3f8a57267b86bbbaadee8e0e1f79a8e746e11b11c062eeae1eccd7de4598f06",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "chapter-15.html",
+      "math_spans": 216,
+      "content_sha256_lf": "4989dd5bf5672c40d505b2d8ca7639878e71781767fb96f287e8768d29ca7a7d",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "figures.html",
+      "math_spans": 22,
+      "content_sha256_lf": "21c5931203b5c28bc2c55b77189444d6563b81ca770462e5a7aa9e0ddd05900a",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "index.html",
+      "math_spans": 0,
+      "content_sha256_lf": "11ab5bf4781de15eee67d29db01ff56cfef16e637904a3aa12ef7ed58740760d",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "laboratory.html",
+      "math_spans": 18,
+      "content_sha256_lf": "e118d7b0d41a78a9b392f7536ba4f0b2d67883bcea89dc7de0cb7d4a0be61d0f",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "references.html",
+      "math_spans": 0,
+      "content_sha256_lf": "c8be41e0e878035ff868a924b5c59f8a6d182569015152db61d1513fe5cc2007",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "source-map.html",
+      "math_spans": 0,
+      "content_sha256_lf": "92e939ebea03c53d30424a8ac45d85ed51eff6da9d2316c83480c9f5c22b1940",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    },
+    {
+      "page": "study-guide.html",
+      "math_spans": 9,
+      "content_sha256_lf": "30b4e3217114d5e5f03e82ba4341270af200a97065164ac71f727b9c6af52548",
+      "matches_authored_page": true,
+      "math_errors": 0,
+      "javascript_errors": [],
+      "overflow_desktop": false,
+      "overflow_mobile": false
+    }
+  ],
+  "assets_sha256_lf": {
+    "assets/book.css": "fcf0196fa542fb9fa30631c11500ee70d793133af41b3d78f9f5260e3e27337c",
+    "assets/book.js": "11d808e6c47df534ec3bab2dd3435720d963e34554459d87eaa05994293ce43e",
+    "assets/curves.js": "e7b03b4e52145dc60669c7ab3ebb2371a8036ed84f40d4229d42d72386aded41",
+    "assets/curves.svg": "88d55c6d0e9ac683f5342587f0ce9ecb8269e35b2bda66e72a50f6596194c5d7",
+    "assets/math-config.js": "6cdc93a140ed3c057f4f809389e6a69e2015370905b50d02e449ec683c8f2809",
+    "assets/MATHJAX-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "assets/mathjax-tex-svg.js": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882"
+  },
+  "failed_pages": [],
+  "interaction_checks": [
+    "chapter search",
+    "theme toggle",
+    "cusp singular point",
+    "cusp slider endpoints remain in view",
+    "node two-branch point",
+    "node vertical nonsingular tangent",
+    "print layout"
+  ],
+  "source": "local files",
+  "limitations": "No exhaustive assistive-technology audit or browser print-PDF pagination audit."
+}

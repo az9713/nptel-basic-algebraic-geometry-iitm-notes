@@ -1,0 +1,17 @@
+{
+  "chapter": 11,
+  "author": "local_functions",
+  "reviewer": "affine_projective",
+  "original_sha256": "5724db701742f8c15bf9f12d5e159d990fbfd5c3f91e48dfeb48ba999adefe89",
+  "final_sha256": "060d7a314fd1a5891c06a0030eb0d4daaf13e4ee08092fbf1449655ee3e0cd39",
+  "review_kind": "full_independent",
+  "status": "accepted",
+  "report": "validation/reviews/ch11-affine_projective.md",
+  "limitations": [
+    "Complete actual manuscript and all worked solutions read; reported repairs checked in the final text.",
+    "Source maps checked for lecture-topic concordance; not an exhaustive independent L28\u201342 caption reread.",
+    "No audio, video, or blackboard-frame inspection.",
+    "Named external theorem hypotheses/applications assessed; no formal proof certification.",
+    "Browser rendering and exact source timestamps are separate checks."
+  ]
+}
